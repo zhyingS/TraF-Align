@@ -1,0 +1,31 @@
+"""
+Implementation of F-cooper maxout fusing.
+"""
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+class SpatialFusion(nn.Module):
+    def __init__(self):
+        super(SpatialFusion, self).__init__()
+
+    def regroup(self, x, record_len):
+        cum_sum_len = torch.cumsum(record_len, dim=0)
+        split_x = torch.tensor_split(x, cum_sum_len[:-1].cpu())
+        return split_x
+
+    def forward(self, x, record_len):
+        # x: B, C, H, W, split x:[(B1, C, W, H), (B2, C, W, H)]
+        split_x = self.regroup(x, record_len)
+        out = []
+
+        for xx in split_x:
+            B, C, W, H = xx.shape
+            if B > 0:
+                xx = torch.max(xx, dim=0, keepdim=True)[0]
+            else:
+                xx = torch.zeros((1,C,W,H)).type_as(xx)
+            out.append(xx)
+        return torch.cat(out, dim=0)

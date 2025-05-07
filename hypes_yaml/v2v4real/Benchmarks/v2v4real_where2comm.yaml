@@ -1,0 +1,184 @@
+name: v2v4real_where2comm
+root_dir: '/data1/dataset_zhiying/V2V4Real/train'
+validate_dir: '/data1/dataset_zhiying/V2V4Real/test'
+
+wild_setting:
+  async: True
+  async_ego: False
+  async_mode: 'sim'
+  agent_i_delay: 0
+  agent_i_delay_train_aug: [0,0] 
+  seed: 2023
+  loc_calib: True
+  loc_err: False 
+  xyz_std: 0
+  ryp_std: 0
+  ego: 'vehicle' 
+  lidar_frequency: 10 
+
+yaml_parser: 'load_point_pillar_params'
+train_params:
+  train_batch_size: &batch_size 4
+  val_batch_size: 4
+  epoches: &epoch 60
+  eval_freq: 2
+  save_freq: 2
+  max_cav: &max_cav 2
+  gpus: 1 # not recommend to use multi gpus
+
+voxelization:
+  core_method: 'SpVoxelPreprocessor'
+  lidar_range: &lidar_range [-140.8,-40,-5,140.8,40,3] 
+  voxel_size: &voxel_size [0.4, 0.4, 8]
+  grid_size: [200,704,1] 
+  max_points_per_voxel: 32
+  # max_voxel_train: 32000
+  # max_voxel_test: 70000
+  max_voxel: 16000
+
+fusion:
+  core_method: 'IntermediateFusionDataset' 
+  dataset: v2v4real
+  args:
+    cur_ego_pose_flag: False 
+    proj_first: True
+
+dataset:
+  shuffle_each_epoch: True
+  single_frame_label: True
+  cls: ['Car', 'Truck', 'Van', 'ConcreteTruck', 'Bus', 'Pedestrian','ScooterRider', 'BicycleRider', 'Scooter']
+  cls_id: [0,1,2,3,4,5,6,7,8]
+  cls_map: [0,0,0,0,0,1,0,0,0]
+  cls_group: [["Car"]] 
+  eval_iou_threshold: [[0.5,0.7]] 
+  eval_cls: ['vehicle']
+  COM_RANGE: 70 
+  eval_range: [-100,-40,-5,100,40,3] 
+  infer_range: False
+  correct_pitch_and_roll: False
+
+  frame_his: &frame_his 1 
+  cav_frame_his: 1
+  merge_pcd_first: False
+
+  augment: True
+  augmentation:
+    Rotation: [-0.785, 0.785]
+    Scaling: [0.9, 1.1]
+    Translation: 0.5
+    Flip: [0.5, 0.5]
+
+  centermap:
+    gaussian_overlap : 0.1
+    max_objs: 200
+    min_radius: 2
+    traj_radius: 1
+  
+# Model related
+model:
+  core_method: where2comm
+  
+  reader:
+    num_filters: [64]
+    num_input_features: &input_feature 9 # + max cav number(one hot cav id)
+    timestamp: false
+
+  compression: 0  # Compression rate
+  
+  backbone:
+    layer_nums: &layer_nums [ 3, 5, 8 ]
+    layer_strides: [ 2, 2, 2 ]
+    num_filters: &num_filters [ 64, 128, 256 ]
+    upsample_strides: [ 1, 2, 4 ]
+    num_upsample_filters: [ 128, 128, 128 ]
+
+  shrink_header:
+    kernal_size: [ 3 ]
+    stride: [ 2 ]
+    padding: [ 1 ]
+    dim: [ 256 ]
+    input_dim: 384  # 128 * 3
+
+  where2comm_fusion:
+    fully: False
+    voxel_size: *voxel_size
+    downsample_rate: 4
+    in_channels: 256
+    multi_scale: True
+    layer_nums: *layer_nums
+    num_filters: *num_filters
+    agg_mode: 'ATTEN' # ['Max','ATTEN']
+    communication:
+      round: 1
+      threshold: 0.01
+      gaussian_smooth:
+        k_size: 5
+        c_sigma: 1.0
+
+  head:
+    in_channels: 128 
+    core_method: anchorhead
+    sep_head: False
+    class_agnostic: False
+    num_anchors_per_location: 2
+    use_direction_classifier: False
+    dir_offset: 0.78539
+    dir_limit_offset: 0.0
+    num_dir_bins: 2
+
+    anchor_generator_config: [
+        {
+            'class_name': 'Car',
+            'anchor_sizes': [[3.9, 1.6, 1.56]], # [[l,w,h]]
+            'anchor_rotations': [0, 1.57],
+            'anchor_bottom_heights': [-1.78],
+            'align_center': False,
+            'feature_map_stride': 4,
+            'matched_threshold': 0.6,
+            'unmatched_threshold': 0.45
+        }
+    ]
+
+    target_assigner_config:
+        name: AxisAlignedTargetAssigner
+        pos_fraction: -1.0
+        sample_size: 128
+        norm_by_num_examples: False
+        match_height: False
+        box_coder: ResidualCoder
+
+    loss_config:
+        loss_weights: {
+            'cls_weight': 1.0,
+            'loc_weight': 2.0,
+            'dir_weight': 0.2,
+            'code_weights': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+        }  
+
+loss:
+  core_method: point_pillars_loss
+
+optimizer:
+  core_method: torch.optim.AdamW 
+  betas: [0.9, 0.99]
+  weight_decay: 0.01
+  amsgrad: False
+
+lr_scheduler:
+  core_method: torch.optim.lr_scheduler.OneCycleLR
+  max_lr: 0.001 # for 10 GPUs
+  div_factor: 10.0
+  pct_start: 0.4
+
+post_processing:
+    recall_thresh_list: [0.3, 0.5, 0.7]
+    score_thresh: 0.2 # 0.1 for higher AP, 0.15 for cleaner detections
+    output_raw_score: False
+
+    eval_metric: kitti
+
+    nms_config:
+        nms_type: nms_gpu
+        nms_thresh: 0.15
+        nms_pre_maxsize: 4096
+        nms_post_maxsize: 100

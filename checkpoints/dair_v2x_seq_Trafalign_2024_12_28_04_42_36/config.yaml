@@ -1,0 +1,335 @@
+dataset:
+  augment: true
+  augmentation:
+    Flip:
+    - 0
+    - 0
+    Rotation:
+    - -0.785
+    - 0.785
+    Scaling:
+    - 0.9
+    - 1.1
+    Translation: 0.5
+  cav_frame_his: 4
+  centermap:
+    gaussian_overlap: 0.1
+    max_objs: 200
+    min_radius: 2
+    traj_radius: 2
+  cls:
+  - Car
+  - Truck
+  - Van
+  - Bus
+  - Pedestrian
+  - Cyclist
+  - Tricyclist
+  - Motorcyclist
+  - Barrowlist
+  - Trafficcone
+  cls_group:
+  - - Car
+  cls_id:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  cls_map:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  eval_cls:
+  - vehicle
+  eval_iou_threshold:
+  - - 0.5
+    - 0.7
+  eval_range:
+  - 0
+  - -40
+  - -3
+  - 96
+  - 40
+  - 1.5
+  find_unused_params: false
+  frame_his: 4
+  ignore_cls:
+  - Pedestrian
+  - Cyclist
+  - Tricyclist
+  - Motorcyclist
+  - Barrowlist
+  - Trafficcone
+  infer_range: false
+  info: /data_info.json
+  infra_label: infrastructure-side/label/virtuallidar/
+  label: cooperative/label/
+  merge_pcd_first: false
+  shuffle_each_epoch: false
+  veh_label: vehicle-side/label/lidar/
+fusion:
+  args:
+    cur_ego_pose_flag: false
+    proj_first: true
+  core_method: IntermediateFusionDataset
+  dataset: v2xseq
+loss:
+  core_method: dtf_point_pillars_loss
+  iou_weight: 0.25
+  reg_iou: false
+  t_cls_weight: 0
+  weight:
+  - 1
+  - 1
+  - 0.05
+  - 0.05
+lr_scheduler:
+  core_method: torch.optim.lr_scheduler.OneCycleLR
+  div_factor: 10.0
+  max_lr: 0.005
+  pct_start: 0.4
+model:
+  backbone:
+    downsample: 256
+    num_upsample_filters:
+    - 128
+    - 128
+    - 128
+    - 128
+    out_size_factor:
+    - 4
+    - 4
+    resnet:
+      ds_layer_strides:
+      - 1
+      - 2
+      - 2
+      - 2
+      ds_num_filters:
+      - 64
+      - 128
+      - 256
+      - 256
+      kernel_size:
+      - 3
+      - 3
+      - 3
+      - 3
+      layer_nums:
+      - 2
+      - 2
+      - 2
+      - 2
+      num_input_features: 64
+    upsample_strides:
+    - 0.25
+    - 0.5
+    - 1
+    - 2
+  compression: 0
+  core_method: traf_align
+  deform:
+    ablation: None
+    attention:
+      dim: 64
+      layer_num: 2
+      num_heads: 4
+    field_dim: 3
+    fusion: conv
+    input_stride:
+    - 4
+    mapping_dim: 128
+    mapping_stride: 1
+    multi_branch: true
+    offset:
+      heads: 2
+      kernel:
+      - 3
+      supervise_num:
+      - 18
+    perturbance: 0
+    upsample_stride: 1
+  head:
+    anchor_generator_config:
+    - align_center: false
+      anchor_bottom_heights:
+      - -1.78
+      anchor_rotations:
+      - 0
+      - 1.57
+      anchor_sizes:
+      - - 3.9
+        - 1.6
+        - 1.56
+      class_name: Car
+      feature_map_stride: 4
+      matched_threshold: 0.6
+      unmatched_threshold: 0.45
+    class_agnostic: false
+    core_method: anchorhead
+    dir_limit_offset: 0.0
+    dir_offset: 0.78539
+    in_channels: 128
+    loss_config:
+      loss_weights:
+        cls_weight: 1.0
+        code_weights:
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        - 1.0
+        dir_weight: 0.2
+        loc_weight: 2.0
+    num_anchors_per_location: 2
+    num_dir_bins: 2
+    sep_head: false
+    target_assigner_config:
+      box_coder: ResidualCoder
+      match_height: false
+      name: AxisAlignedTargetAssigner
+      norm_by_num_examples: false
+      pos_fraction: -1.0
+      sample_size: 128
+    use_direction_classifier: false
+  reader:
+    num_filters:
+    - 64
+    num_input_features: 9
+    timestamp: false
+name: dair_v2x_seq_Trafalign
+optimizer:
+  amsgrad: false
+  betas:
+  - 0.9
+  - 0.99
+  core_method: torch.optim.AdamW
+  weight_decay: 0.01
+post_processing:
+  nms_config:
+    nms_post_maxsize: 100
+    nms_pre_maxsize: 4096
+    nms_thresh: 0.15
+    nms_type: nms_gpu
+  output_raw_score: false
+  recall_thresh_list:
+  - 0.3
+  - 0.5
+  - 0.7
+  score_thresh: 0.2
+root_dir: /data1/dataset_zhiying/V2XSeq/
+split_dir: datasets/Basedataset/V2XSeq_dataset_split_official.yaml
+train_params:
+  epoches: 60
+  eval_freq: 2
+  gpus: 9
+  max_cav: 2
+  save_freq: 2
+  train_batch_size: 4
+  val_batch_size: 4
+voxelization:
+  core_method: SpVoxelPreprocessor
+  grid_size: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - &id001 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 3
+    - !!python/object/apply:numpy.dtype
+      args:
+      - i8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - false
+    - !!binary |
+      yAAAAAAAAADwAAAAAAAAAAEAAAAAAAAA
+  lidar_range: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id001
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 6
+    - &id002 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - false
+    - !!binary |
+      AAAAAAAAAAAAAAAAAABEwAAAAAAAAAjAAAAAAAAAWEAAAAAAAABEQAAAAAAAAPg/
+  max_points_per_voxel: 32
+  max_voxel: 16000
+  voxel_size: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id001
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 3
+    - *id002
+    - false
+    - !!binary |
+      mpmZmZmZ2T+amZmZmZnZPwAAAAAAABJA
+wild_setting:
+  agent_i_delay: 0
+  agent_i_delay_train_aug:
+  - 0
+  - 400
+  async: true
+  async_ego: false
+  async_mode: sim
+  ego: vehicle
+  lidar_frequency: 10
+  loc_calib: true
+  loc_err: false
+  ryp_std: 0
+  seed: 2023
+  xyz_std: 0
+yaml_parser: load_point_pillar_params

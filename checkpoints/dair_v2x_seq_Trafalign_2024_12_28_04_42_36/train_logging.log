@@ -1,0 +1,1629 @@
+2024-12-28 04:42:49,200 Training start
+2024-12-28 04:42:49,201 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,201 Training start
+2024-12-28 04:42:49,201 Training start
+2024-12-28 04:42:49,201 Training start
+2024-12-28 04:42:49,202 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,202 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,202 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,202 Training start
+2024-12-28 04:42:49,202 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,202 Training start
+2024-12-28 04:42:49,202 Training start
+2024-12-28 04:42:49,203 Training start
+2024-12-28 04:42:49,203 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,203 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,203 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:42:49,206 Training start
+2024-12-28 04:42:49,206 At epoch 0, the learning rate is 0.0005000
+2024-12-28 04:45:23,228 At epoch 0, the training loss is 4.757354
+2024-12-28 04:45:23,241 At epoch 0, the training loss is 4.654873
+2024-12-28 04:45:23,241 At epoch 0, the training loss is 4.710051
+2024-12-28 04:45:23,255 At epoch 0, the training loss is 4.832646
+2024-12-28 04:45:23,341 At epoch 0, the training loss is 4.857170
+2024-12-28 04:45:23,346 At epoch 0, the training loss is 4.673955
+2024-12-28 04:45:23,351 At epoch 0, the training loss is 4.796674
+2024-12-28 04:45:23,354 At epoch 0, the training loss is 4.777902
+2024-12-28 04:45:23,354 At epoch 0, the training loss is 4.701202
+2024-12-28 04:45:23,360 validating
+2024-12-28 04:45:23,384 validating
+2024-12-28 04:45:23,384 validating
+2024-12-28 04:45:23,417 validating
+2024-12-28 04:45:23,498 validating
+2024-12-28 04:45:23,498 validating
+2024-12-28 04:45:23,502 validating
+2024-12-28 04:45:23,502 validating
+2024-12-28 04:45:23,503 validating
+2024-12-28 04:45:54,125 At epoch 0, the validation loss is 1.854478
+2024-12-28 04:45:54,126 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:54,176 At epoch 0, the validation loss is 1.858066
+2024-12-28 04:45:54,177 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:54,875 At epoch 0, the validation loss is 1.910316
+2024-12-28 04:45:54,876 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:55,182 At epoch 0, the validation loss is 1.896762
+2024-12-28 04:45:55,183 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:55,240 At epoch 0, the validation loss is 1.891830
+2024-12-28 04:45:55,241 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:55,269 At epoch 0, the validation loss is 1.817816
+2024-12-28 04:45:55,271 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:55,357 At epoch 0, the validation loss is 1.902170
+2024-12-28 04:45:55,358 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:55,367 At epoch 0, the validation loss is 1.825868
+2024-12-28 04:45:55,368 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:45:56,622 At epoch 0, the validation loss is 1.975338
+2024-12-28 04:45:56,623 At epoch 1, the learning rate is 0.0005193
+2024-12-28 04:48:09,997 At epoch 1, the training loss is 3.624867
+2024-12-28 04:48:09,998 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,006 At epoch 1, the training loss is 3.641838
+2024-12-28 04:48:10,006 At epoch 1, the training loss is 3.571065
+2024-12-28 04:48:10,006 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,006 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,007 At epoch 1, the training loss is 3.663605
+2024-12-28 04:48:10,007 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,122 At epoch 1, the training loss is 3.608651
+2024-12-28 04:48:10,123 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,127 At epoch 1, the training loss is 3.662926
+2024-12-28 04:48:10,128 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,134 At epoch 1, the training loss is 3.604049
+2024-12-28 04:48:10,135 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,140 At epoch 1, the training loss is 3.693110
+2024-12-28 04:48:10,141 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:48:10,147 At epoch 1, the training loss is 3.652650
+2024-12-28 04:48:10,148 At epoch 2, the learning rate is 0.0005767
+2024-12-28 04:50:22,980 At epoch 2, the training loss is 3.293746
+2024-12-28 04:50:22,982 At epoch 2, the training loss is 3.282290
+2024-12-28 04:50:22,991 At epoch 2, the training loss is 3.307284
+2024-12-28 04:50:22,998 At epoch 2, the training loss is 3.235614
+2024-12-28 04:50:23,001 At epoch 2, the training loss is 3.273915
+2024-12-28 04:50:23,061 At epoch 2, the training loss is 3.319069
+2024-12-28 04:50:23,062 At epoch 2, the training loss is 3.351361
+2024-12-28 04:50:23,064 At epoch 2, the training loss is 3.324869
+2024-12-28 04:50:23,071 At epoch 2, the training loss is 3.272547
+2024-12-28 04:50:23,194 validating
+2024-12-28 04:50:23,195 validating
+2024-12-28 04:50:23,204 validating
+2024-12-28 04:50:23,204 validating
+2024-12-28 04:50:23,226 validating
+2024-12-28 04:50:23,250 validating
+2024-12-28 04:50:23,254 validating
+2024-12-28 04:50:23,254 validating
+2024-12-28 04:50:23,256 validating
+2024-12-28 04:50:53,508 At epoch 2, the validation loss is 1.262662
+2024-12-28 04:50:53,509 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:53,562 At epoch 2, the validation loss is 1.287512
+2024-12-28 04:50:53,562 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:54,197 At epoch 2, the validation loss is 1.381429
+2024-12-28 04:50:54,198 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:54,433 At epoch 2, the validation loss is 1.266132
+2024-12-28 04:50:54,433 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:55,158 At epoch 2, the validation loss is 1.313666
+2024-12-28 04:50:55,159 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:55,594 At epoch 2, the validation loss is 1.304630
+2024-12-28 04:50:55,595 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:55,912 At epoch 2, the validation loss is 1.304060
+2024-12-28 04:50:55,912 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:56,325 At epoch 2, the validation loss is 1.283908
+2024-12-28 04:50:56,326 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:50:56,408 At epoch 2, the validation loss is 1.315902
+2024-12-28 04:50:56,409 At epoch 3, the learning rate is 0.0006713
+2024-12-28 04:53:09,583 At epoch 3, the training loss is 3.117225
+2024-12-28 04:53:09,584 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,671 At epoch 3, the training loss is 3.138540
+2024-12-28 04:53:09,671 At epoch 3, the training loss is 3.127557
+2024-12-28 04:53:09,671 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,671 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,711 At epoch 3, the training loss is 3.106561
+2024-12-28 04:53:09,712 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,755 At epoch 3, the training loss is 3.133409
+2024-12-28 04:53:09,756 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,803 At epoch 3, the training loss is 3.141162
+2024-12-28 04:53:09,804 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,813 At epoch 3, the training loss is 3.117981
+2024-12-28 04:53:09,813 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,826 At epoch 3, the training loss is 3.073443
+2024-12-28 04:53:09,826 At epoch 3, the training loss is 3.137338
+2024-12-28 04:53:09,827 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:53:09,827 At epoch 4, the learning rate is 0.0008016
+2024-12-28 04:55:22,953 At epoch 4, the training loss is 3.062527
+2024-12-28 04:55:23,004 At epoch 4, the training loss is 2.994995
+2024-12-28 04:55:23,013 At epoch 4, the training loss is 2.989210
+2024-12-28 04:55:23,020 At epoch 4, the training loss is 2.993036
+2024-12-28 04:55:23,098 validating
+2024-12-28 04:55:23,158 validating
+2024-12-28 04:55:23,178 validating
+2024-12-28 04:55:23,181 validating
+2024-12-28 04:55:23,259 At epoch 4, the training loss is 3.023442
+2024-12-28 04:55:23,288 At epoch 4, the training loss is 3.045200
+2024-12-28 04:55:23,293 At epoch 4, the training loss is 3.040988
+2024-12-28 04:55:23,294 At epoch 4, the training loss is 3.094323
+2024-12-28 04:55:23,313 At epoch 4, the training loss is 3.063980
+2024-12-28 04:55:23,441 validating
+2024-12-28 04:55:23,450 validating
+2024-12-28 04:55:23,450 validating
+2024-12-28 04:55:23,457 validating
+2024-12-28 04:55:23,464 validating
+2024-12-28 04:55:52,362 At epoch 4, the validation loss is 1.117417
+2024-12-28 04:55:52,363 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:52,538 At epoch 4, the validation loss is 1.101435
+2024-12-28 04:55:52,539 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:53,861 At epoch 4, the validation loss is 1.136840
+2024-12-28 04:55:53,862 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:54,743 At epoch 4, the validation loss is 1.130910
+2024-12-28 04:55:54,744 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:56,650 At epoch 4, the validation loss is 1.157757
+2024-12-28 04:55:56,651 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:56,997 At epoch 4, the validation loss is 1.201188
+2024-12-28 04:55:56,998 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:57,489 At epoch 4, the validation loss is 1.102204
+2024-12-28 04:55:57,490 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:57,593 At epoch 4, the validation loss is 1.087435
+2024-12-28 04:55:57,594 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:55:57,884 At epoch 4, the validation loss is 1.109432
+2024-12-28 04:55:57,885 At epoch 5, the learning rate is 0.0009651
+2024-12-28 04:58:09,645 At epoch 5, the training loss is 2.989504
+2024-12-28 04:58:09,645 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,701 At epoch 5, the training loss is 3.003115
+2024-12-28 04:58:09,702 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,795 At epoch 5, the training loss is 3.006267
+2024-12-28 04:58:09,795 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,810 At epoch 5, the training loss is 2.942086
+2024-12-28 04:58:09,811 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,825 At epoch 5, the training loss is 3.024067
+2024-12-28 04:58:09,825 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,834 At epoch 5, the training loss is 2.985982
+2024-12-28 04:58:09,834 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,852 At epoch 5, the training loss is 3.006374
+2024-12-28 04:58:09,853 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,857 At epoch 5, the training loss is 2.997885
+2024-12-28 04:58:09,857 At epoch 6, the learning rate is 0.0011593
+2024-12-28 04:58:09,859 At epoch 5, the training loss is 2.942819
+2024-12-28 04:58:09,859 At epoch 6, the learning rate is 0.0011593
+2024-12-28 05:00:24,628 At epoch 6, the training loss is 2.947589
+2024-12-28 05:00:24,640 At epoch 6, the training loss is 2.916929
+2024-12-28 05:00:24,744 validating
+2024-12-28 05:00:24,744 validating
+2024-12-28 05:00:24,752 At epoch 6, the training loss is 2.959112
+2024-12-28 05:00:24,758 At epoch 6, the training loss is 2.951289
+2024-12-28 05:00:24,763 At epoch 6, the training loss is 2.944798
+2024-12-28 05:00:24,793 At epoch 6, the training loss is 2.938269
+2024-12-28 05:00:24,807 At epoch 6, the training loss is 2.973424
+2024-12-28 05:00:24,809 At epoch 6, the training loss is 2.925365
+2024-12-28 05:00:24,810 At epoch 6, the training loss is 2.950002
+2024-12-28 05:00:24,980 validating
+2024-12-28 05:00:24,980 validating
+2024-12-28 05:00:24,980 validating
+2024-12-28 05:00:25,009 validating
+2024-12-28 05:00:25,018 validating
+2024-12-28 05:00:25,018 validating
+2024-12-28 05:00:25,032 validating
+2024-12-28 05:00:54,829 At epoch 6, the validation loss is 1.046596
+2024-12-28 05:00:54,829 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:55,117 At epoch 6, the validation loss is 1.028401
+2024-12-28 05:00:55,117 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:55,780 At epoch 6, the validation loss is 1.106452
+2024-12-28 05:00:55,781 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,177 At epoch 6, the validation loss is 1.015689
+2024-12-28 05:00:56,177 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,231 At epoch 6, the validation loss is 1.045711
+2024-12-28 05:00:56,232 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,288 At epoch 6, the validation loss is 1.032647
+2024-12-28 05:00:56,289 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,328 At epoch 6, the validation loss is 1.046516
+2024-12-28 05:00:56,330 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,449 At epoch 6, the validation loss is 1.107491
+2024-12-28 05:00:56,455 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:00:56,789 At epoch 6, the validation loss is 1.065927
+2024-12-28 05:00:56,790 At epoch 7, the learning rate is 0.0013806
+2024-12-28 05:03:09,117 At epoch 7, the training loss is 2.923561
+2024-12-28 05:03:09,118 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,137 At epoch 7, the training loss is 2.958782
+2024-12-28 05:03:09,138 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,158 At epoch 7, the training loss is 2.907641
+2024-12-28 05:03:09,158 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,174 At epoch 7, the training loss is 2.893180
+2024-12-28 05:03:09,174 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,208 At epoch 7, the training loss is 2.927827
+2024-12-28 05:03:09,208 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,255 At epoch 7, the training loss is 2.905754
+2024-12-28 05:03:09,255 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,265 At epoch 7, the training loss is 2.913984
+2024-12-28 05:03:09,265 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,276 At epoch 7, the training loss is 2.901998
+2024-12-28 05:03:09,277 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:03:09,287 At epoch 7, the training loss is 2.903400
+2024-12-28 05:03:09,287 At epoch 8, the learning rate is 0.0016254
+2024-12-28 05:05:23,651 At epoch 8, the training loss is 2.884599
+2024-12-28 05:05:23,703 At epoch 8, the training loss is 2.829471
+2024-12-28 05:05:23,723 At epoch 8, the training loss is 2.844285
+2024-12-28 05:05:23,772 validating
+2024-12-28 05:05:23,826 validating
+2024-12-28 05:05:23,830 validating
+2024-12-28 05:05:23,853 At epoch 8, the training loss is 2.868461
+2024-12-28 05:05:23,987 At epoch 8, the training loss is 2.903024
+2024-12-28 05:05:24,013 validating
+2024-12-28 05:05:24,057 At epoch 8, the training loss is 2.883701
+2024-12-28 05:05:24,058 At epoch 8, the training loss is 2.875241
+2024-12-28 05:05:24,067 At epoch 8, the training loss is 2.838483
+2024-12-28 05:05:24,091 At epoch 8, the training loss is 2.836024
+2024-12-28 05:05:24,155 validating
+2024-12-28 05:05:24,232 validating
+2024-12-28 05:05:24,233 validating
+2024-12-28 05:05:24,234 validating
+2024-12-28 05:05:24,234 validating
+2024-12-28 05:05:55,018 At epoch 8, the validation loss is 0.959691
+2024-12-28 05:05:55,019 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:55,116 At epoch 8, the validation loss is 0.928675
+2024-12-28 05:05:55,117 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:55,134 At epoch 8, the validation loss is 0.941124
+2024-12-28 05:05:55,134 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:55,435 At epoch 8, the validation loss is 0.938874
+2024-12-28 05:05:55,435 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:55,783 At epoch 8, the validation loss is 1.008867
+2024-12-28 05:05:55,784 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:55,813 At epoch 8, the validation loss is 0.982821
+2024-12-28 05:05:55,813 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:56,013 At epoch 8, the validation loss is 0.955360
+2024-12-28 05:05:56,013 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:56,582 At epoch 8, the validation loss is 0.919005
+2024-12-28 05:05:56,583 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:05:56,699 At epoch 8, the validation loss is 0.975634
+2024-12-28 05:05:56,699 At epoch 9, the learning rate is 0.0018895
+2024-12-28 05:08:08,370 At epoch 9, the training loss is 2.847726
+2024-12-28 05:08:08,371 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,375 At epoch 9, the training loss is 2.814994
+2024-12-28 05:08:08,375 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,376 At epoch 9, the training loss is 2.805069
+2024-12-28 05:08:08,376 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,541 At epoch 9, the training loss is 2.842041
+2024-12-28 05:08:08,541 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,552 At epoch 9, the training loss is 2.829622
+2024-12-28 05:08:08,552 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,557 At epoch 9, the training loss is 2.882891
+2024-12-28 05:08:08,557 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,559 At epoch 9, the training loss is 2.783616
+2024-12-28 05:08:08,560 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,568 At epoch 9, the training loss is 2.876316
+2024-12-28 05:08:08,569 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:08:08,572 At epoch 9, the training loss is 2.872494
+2024-12-28 05:08:08,572 At epoch 10, the learning rate is 0.0021682
+2024-12-28 05:10:22,809 At epoch 10, the training loss is 2.792650
+2024-12-28 05:10:22,916 At epoch 10, the training loss is 2.827568
+2024-12-28 05:10:22,934 validating
+2024-12-28 05:10:22,957 At epoch 10, the training loss is 2.790117
+2024-12-28 05:10:22,963 At epoch 10, the training loss is 2.788122
+2024-12-28 05:10:22,971 At epoch 10, the training loss is 2.841392
+2024-12-28 05:10:23,045 At epoch 10, the training loss is 2.836792
+2024-12-28 05:10:23,050 validating
+2024-12-28 05:10:23,059 At epoch 10, the training loss is 2.842130
+2024-12-28 05:10:23,062 At epoch 10, the training loss is 2.845022
+2024-12-28 05:10:23,069 At epoch 10, the training loss is 2.827719
+2024-12-28 05:10:23,155 validating
+2024-12-28 05:10:23,187 validating
+2024-12-28 05:10:23,205 validating
+2024-12-28 05:10:23,247 validating
+2024-12-28 05:10:23,250 validating
+2024-12-28 05:10:23,269 validating
+2024-12-28 05:10:23,269 validating
+2024-12-28 05:10:53,937 At epoch 10, the validation loss is 1.108646
+2024-12-28 05:10:53,938 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,247 At epoch 10, the validation loss is 1.070306
+2024-12-28 05:10:54,248 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,254 At epoch 10, the validation loss is 1.157893
+2024-12-28 05:10:54,254 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,304 At epoch 10, the validation loss is 1.088526
+2024-12-28 05:10:54,305 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,312 At epoch 10, the validation loss is 1.086961
+2024-12-28 05:10:54,312 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,684 At epoch 10, the validation loss is 1.117626
+2024-12-28 05:10:54,685 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,770 At epoch 10, the validation loss is 1.098779
+2024-12-28 05:10:54,771 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:54,786 At epoch 10, the validation loss is 1.090489
+2024-12-28 05:10:54,787 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:10:55,144 At epoch 10, the validation loss is 1.104278
+2024-12-28 05:10:55,144 At epoch 11, the learning rate is 0.0024570
+2024-12-28 05:13:07,452 At epoch 11, the training loss is 2.823065
+2024-12-28 05:13:07,453 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,469 At epoch 11, the training loss is 2.806720
+2024-12-28 05:13:07,469 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,485 At epoch 11, the training loss is 2.833636
+2024-12-28 05:13:07,485 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,581 At epoch 11, the training loss is 2.798751
+2024-12-28 05:13:07,582 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,599 At epoch 11, the training loss is 2.831689
+2024-12-28 05:13:07,600 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,627 At epoch 11, the training loss is 2.799879
+2024-12-28 05:13:07,628 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,648 At epoch 11, the training loss is 2.796171
+2024-12-28 05:13:07,649 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,652 At epoch 11, the training loss is 2.854280
+2024-12-28 05:13:07,652 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:13:07,667 At epoch 11, the training loss is 2.835053
+2024-12-28 05:13:07,667 At epoch 12, the learning rate is 0.0027507
+2024-12-28 05:15:24,571 At epoch 12, the training loss is 2.832417
+2024-12-28 05:15:24,585 At epoch 12, the training loss is 2.854496
+2024-12-28 05:15:24,592 At epoch 12, the training loss is 2.764386
+2024-12-28 05:15:24,672 At epoch 12, the training loss is 2.739468
+2024-12-28 05:15:24,709 validating
+2024-12-28 05:15:24,709 validating
+2024-12-28 05:15:24,733 At epoch 12, the training loss is 2.777993
+2024-12-28 05:15:24,768 At epoch 12, the training loss is 2.797915
+2024-12-28 05:15:24,771 At epoch 12, the training loss is 2.733259
+2024-12-28 05:15:24,803 At epoch 12, the training loss is 2.795699
+2024-12-28 05:15:24,815 At epoch 12, the training loss is 2.777468
+2024-12-28 05:15:24,821 validating
+2024-12-28 05:15:24,957 validating
+2024-12-28 05:15:24,958 validating
+2024-12-28 05:15:24,962 validating
+2024-12-28 05:15:24,966 validating
+2024-12-28 05:15:24,973 validating
+2024-12-28 05:15:26,899 validating
+2024-12-28 05:15:55,234 At epoch 12, the validation loss is 0.960330
+2024-12-28 05:15:55,235 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:56,195 At epoch 12, the validation loss is 0.989919
+2024-12-28 05:15:56,195 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:56,217 At epoch 12, the validation loss is 1.004952
+2024-12-28 05:15:56,218 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:56,909 At epoch 12, the validation loss is 1.031155
+2024-12-28 05:15:56,910 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:57,067 At epoch 12, the validation loss is 0.938552
+2024-12-28 05:15:57,068 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:57,646 At epoch 12, the validation loss is 0.976377
+2024-12-28 05:15:57,647 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:58,960 At epoch 12, the validation loss is 0.998798
+2024-12-28 05:15:58,961 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:59,506 At epoch 12, the validation loss is 0.983712
+2024-12-28 05:15:59,508 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:15:59,836 At epoch 12, the validation loss is 1.003391
+2024-12-28 05:15:59,837 At epoch 13, the learning rate is 0.0030444
+2024-12-28 05:18:15,024 At epoch 13, the training loss is 2.791283
+2024-12-28 05:18:15,024 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,060 At epoch 13, the training loss is 2.775386
+2024-12-28 05:18:15,060 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,096 At epoch 13, the training loss is 2.791156
+2024-12-28 05:18:15,097 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,158 At epoch 13, the training loss is 2.729119
+2024-12-28 05:18:15,159 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,245 At epoch 13, the training loss is 2.758316
+2024-12-28 05:18:15,246 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,276 At epoch 13, the training loss is 2.756910
+2024-12-28 05:18:15,277 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,304 At epoch 13, the training loss is 2.749723
+2024-12-28 05:18:15,305 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,310 At epoch 13, the training loss is 2.737628
+2024-12-28 05:18:15,311 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:18:15,329 At epoch 13, the training loss is 2.770890
+2024-12-28 05:18:15,329 At epoch 14, the learning rate is 0.0033331
+2024-12-28 05:20:29,999 At epoch 14, the training loss is 2.721300
+2024-12-28 05:20:30,012 At epoch 14, the training loss is 2.699657
+2024-12-28 05:20:30,052 At epoch 14, the training loss is 2.685669
+2024-12-28 05:20:30,060 At epoch 14, the training loss is 2.739358
+2024-12-28 05:20:30,182 validating
+2024-12-28 05:20:30,184 validating
+2024-12-28 05:20:30,224 validating
+2024-12-28 05:20:30,224 validating
+2024-12-28 05:20:30,325 At epoch 14, the training loss is 2.711217
+2024-12-28 05:20:30,330 At epoch 14, the training loss is 2.746151
+2024-12-28 05:20:30,342 At epoch 14, the training loss is 2.672978
+2024-12-28 05:20:30,372 At epoch 14, the training loss is 2.736066
+2024-12-28 05:20:30,373 At epoch 14, the training loss is 2.745210
+2024-12-28 05:20:30,493 validating
+2024-12-28 05:20:30,493 validating
+2024-12-28 05:20:30,495 validating
+2024-12-28 05:20:30,510 validating
+2024-12-28 05:20:30,523 validating
+2024-12-28 05:21:01,721 At epoch 14, the validation loss is 0.803981
+2024-12-28 05:21:01,722 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:02,120 At epoch 14, the validation loss is 0.827091
+2024-12-28 05:21:02,121 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:02,547 At epoch 14, the validation loss is 0.831483
+2024-12-28 05:21:02,547 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:03,219 At epoch 14, the validation loss is 0.822167
+2024-12-28 05:21:03,220 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:04,785 At epoch 14, the validation loss is 0.816828
+2024-12-28 05:21:04,786 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:04,834 At epoch 14, the validation loss is 0.881200
+2024-12-28 05:21:04,835 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:04,954 At epoch 14, the validation loss is 0.816304
+2024-12-28 05:21:04,955 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:05,840 At epoch 14, the validation loss is 0.803274
+2024-12-28 05:21:05,841 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:21:07,380 At epoch 14, the validation loss is 0.816411
+2024-12-28 05:21:07,382 At epoch 15, the learning rate is 0.0036119
+2024-12-28 05:23:18,991 At epoch 15, the training loss is 2.669596
+2024-12-28 05:23:18,991 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,001 At epoch 15, the training loss is 2.706262
+2024-12-28 05:23:19,002 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,012 At epoch 15, the training loss is 2.705332
+2024-12-28 05:23:19,013 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,047 At epoch 15, the training loss is 2.741762
+2024-12-28 05:23:19,047 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,126 At epoch 15, the training loss is 2.702828
+2024-12-28 05:23:19,129 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,138 At epoch 15, the training loss is 2.694385
+2024-12-28 05:23:19,139 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,155 At epoch 15, the training loss is 2.679740
+2024-12-28 05:23:19,155 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,156 At epoch 15, the training loss is 2.750806
+2024-12-28 05:23:19,156 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:23:19,168 At epoch 15, the training loss is 2.719977
+2024-12-28 05:23:19,169 At epoch 16, the learning rate is 0.0038758
+2024-12-28 05:25:33,816 At epoch 16, the training loss is 2.715101
+2024-12-28 05:25:33,856 At epoch 16, the training loss is 2.721741
+2024-12-28 05:25:33,898 At epoch 16, the training loss is 2.671338
+2024-12-28 05:25:33,927 At epoch 16, the training loss is 2.700216
+2024-12-28 05:25:33,938 validating
+2024-12-28 05:25:34,020 validating
+2024-12-28 05:25:34,032 validating
+2024-12-28 05:25:34,057 validating
+2024-12-28 05:25:34,119 At epoch 16, the training loss is 2.685057
+2024-12-28 05:25:34,123 At epoch 16, the training loss is 2.697811
+2024-12-28 05:25:34,132 At epoch 16, the training loss is 2.657084
+2024-12-28 05:25:34,133 At epoch 16, the training loss is 2.648985
+2024-12-28 05:25:34,137 At epoch 16, the training loss is 2.713831
+2024-12-28 05:25:34,285 validating
+2024-12-28 05:25:34,293 validating
+2024-12-28 05:25:34,308 validating
+2024-12-28 05:25:34,309 validating
+2024-12-28 05:25:34,328 validating
+2024-12-28 05:26:04,966 At epoch 16, the validation loss is 0.934892
+2024-12-28 05:26:04,967 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:05,903 At epoch 16, the validation loss is 0.964730
+2024-12-28 05:26:05,910 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:06,272 At epoch 16, the validation loss is 0.961754
+2024-12-28 05:26:06,273 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:06,917 At epoch 16, the validation loss is 0.940910
+2024-12-28 05:26:06,918 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:08,091 At epoch 16, the validation loss is 0.937176
+2024-12-28 05:26:08,093 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:08,205 At epoch 16, the validation loss is 0.950591
+2024-12-28 05:26:08,206 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:08,457 At epoch 16, the validation loss is 0.976176
+2024-12-28 05:26:08,463 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:09,623 At epoch 16, the validation loss is 0.953694
+2024-12-28 05:26:09,624 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:26:10,651 At epoch 16, the validation loss is 0.939650
+2024-12-28 05:26:10,652 At epoch 17, the learning rate is 0.0041205
+2024-12-28 05:28:24,366 At epoch 17, the training loss is 2.709096
+2024-12-28 05:28:24,366 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,446 At epoch 17, the training loss is 2.656655
+2024-12-28 05:28:24,446 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,472 At epoch 17, the training loss is 2.642885
+2024-12-28 05:28:24,473 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,500 At epoch 17, the training loss is 2.629030
+2024-12-28 05:28:24,501 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,506 At epoch 17, the training loss is 2.665473
+2024-12-28 05:28:24,506 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,541 At epoch 17, the training loss is 2.666115
+2024-12-28 05:28:24,542 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,557 At epoch 17, the training loss is 2.700933
+2024-12-28 05:28:24,558 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,567 At epoch 17, the training loss is 2.659814
+2024-12-28 05:28:24,567 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:28:24,578 At epoch 17, the training loss is 2.669299
+2024-12-28 05:28:24,579 At epoch 18, the learning rate is 0.0043417
+2024-12-28 05:30:39,518 At epoch 18, the training loss is 2.619174
+2024-12-28 05:30:39,546 At epoch 18, the training loss is 2.657163
+2024-12-28 05:30:39,607 At epoch 18, the training loss is 2.680367
+2024-12-28 05:30:39,646 At epoch 18, the training loss is 2.605996
+2024-12-28 05:30:39,665 validating
+2024-12-28 05:30:39,719 At epoch 18, the training loss is 2.686273
+2024-12-28 05:30:39,733 At epoch 18, the training loss is 2.682192
+2024-12-28 05:30:39,733 validating
+2024-12-28 05:30:39,738 At epoch 18, the training loss is 2.642042
+2024-12-28 05:30:39,739 At epoch 18, the training loss is 2.626824
+2024-12-28 05:30:39,742 At epoch 18, the training loss is 2.613190
+2024-12-28 05:30:39,801 validating
+2024-12-28 05:30:39,829 validating
+2024-12-28 05:30:39,912 validating
+2024-12-28 05:30:39,924 validating
+2024-12-28 05:30:39,924 validating
+2024-12-28 05:30:39,924 validating
+2024-12-28 05:30:39,926 validating
+2024-12-28 05:31:11,895 At epoch 18, the validation loss is 0.701675
+2024-12-28 05:31:11,896 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,078 At epoch 18, the validation loss is 0.688612
+2024-12-28 05:31:12,079 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,305 At epoch 18, the validation loss is 0.713211
+2024-12-28 05:31:12,305 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,312 At epoch 18, the validation loss is 0.686342
+2024-12-28 05:31:12,313 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,464 At epoch 18, the validation loss is 0.715445
+2024-12-28 05:31:12,465 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,670 At epoch 18, the validation loss is 0.693808
+2024-12-28 05:31:12,670 At epoch 18, the validation loss is 0.740870
+2024-12-28 05:31:12,682 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,683 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,739 At epoch 18, the validation loss is 0.728543
+2024-12-28 05:31:12,740 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:31:12,952 At epoch 18, the validation loss is 0.708973
+2024-12-28 05:31:12,953 At epoch 19, the learning rate is 0.0045357
+2024-12-28 05:33:26,257 At epoch 19, the training loss is 2.644401
+2024-12-28 05:33:26,258 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,536 At epoch 19, the training loss is 2.625033
+2024-12-28 05:33:26,537 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,559 At epoch 19, the training loss is 2.651165
+2024-12-28 05:33:26,559 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,564 At epoch 19, the training loss is 2.628328
+2024-12-28 05:33:26,564 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,579 At epoch 19, the training loss is 2.632211
+2024-12-28 05:33:26,580 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,614 At epoch 19, the training loss is 2.623325
+2024-12-28 05:33:26,615 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,629 At epoch 19, the training loss is 2.655107
+2024-12-28 05:33:26,630 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,641 At epoch 19, the training loss is 2.611777
+2024-12-28 05:33:26,641 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:33:26,646 At epoch 19, the training loss is 2.647696
+2024-12-28 05:33:26,646 At epoch 20, the learning rate is 0.0046991
+2024-12-28 05:35:41,397 At epoch 20, the training loss is 2.621654
+2024-12-28 05:35:41,398 At epoch 20, the training loss is 2.592036
+2024-12-28 05:35:41,417 At epoch 20, the training loss is 2.577316
+2024-12-28 05:35:41,537 validating
+2024-12-28 05:35:41,540 validating
+2024-12-28 05:35:41,541 validating
+2024-12-28 05:35:41,548 At epoch 20, the training loss is 2.643727
+2024-12-28 05:35:41,570 At epoch 20, the training loss is 2.571931
+2024-12-28 05:35:41,586 At epoch 20, the training loss is 2.616695
+2024-12-28 05:35:41,593 At epoch 20, the training loss is 2.590497
+2024-12-28 05:35:41,602 At epoch 20, the training loss is 2.587098
+2024-12-28 05:35:41,609 At epoch 20, the training loss is 2.618199
+2024-12-28 05:35:41,744 validating
+2024-12-28 05:35:41,757 validating
+2024-12-28 05:35:41,777 validating
+2024-12-28 05:35:41,780 validating
+2024-12-28 05:35:41,781 validating
+2024-12-28 05:35:41,785 validating
+2024-12-28 05:36:13,319 At epoch 20, the validation loss is 0.742074
+2024-12-28 05:36:13,319 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:13,712 At epoch 20, the validation loss is 0.775944
+2024-12-28 05:36:13,713 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:13,985 At epoch 20, the validation loss is 0.836352
+2024-12-28 05:36:13,986 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:14,092 At epoch 20, the validation loss is 0.763016
+2024-12-28 05:36:14,093 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:14,425 At epoch 20, the validation loss is 0.752305
+2024-12-28 05:36:14,426 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:14,541 At epoch 20, the validation loss is 0.742115
+2024-12-28 05:36:14,542 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:15,005 At epoch 20, the validation loss is 0.767087
+2024-12-28 05:36:15,007 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:15,189 At epoch 20, the validation loss is 0.752717
+2024-12-28 05:36:15,189 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:36:15,313 At epoch 20, the validation loss is 0.753088
+2024-12-28 05:36:15,314 At epoch 21, the learning rate is 0.0048292
+2024-12-28 05:38:29,072 At epoch 21, the training loss is 2.604002
+2024-12-28 05:38:29,073 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,109 At epoch 21, the training loss is 2.608350
+2024-12-28 05:38:29,109 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,138 At epoch 21, the training loss is 2.560876
+2024-12-28 05:38:29,139 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,142 At epoch 21, the training loss is 2.621542
+2024-12-28 05:38:29,143 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,372 At epoch 21, the training loss is 2.602546
+2024-12-28 05:38:29,373 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,378 At epoch 21, the training loss is 2.616598
+2024-12-28 05:38:29,379 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,385 At epoch 21, the training loss is 2.607565
+2024-12-28 05:38:29,385 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,387 At epoch 21, the training loss is 2.602811
+2024-12-28 05:38:29,387 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:38:29,398 At epoch 21, the training loss is 2.556868
+2024-12-28 05:38:29,398 At epoch 22, the learning rate is 0.0049237
+2024-12-28 05:40:43,739 At epoch 22, the training loss is 2.589344
+2024-12-28 05:40:43,774 At epoch 22, the training loss is 2.568879
+2024-12-28 05:40:43,797 At epoch 22, the training loss is 2.580357
+2024-12-28 05:40:43,871 At epoch 22, the training loss is 2.539809
+2024-12-28 05:40:43,881 At epoch 22, the training loss is 2.614805
+2024-12-28 05:40:43,890 validating
+2024-12-28 05:40:43,891 At epoch 22, the training loss is 2.514566
+2024-12-28 05:40:43,912 validating
+2024-12-28 05:40:43,919 At epoch 22, the training loss is 2.574885
+2024-12-28 05:40:43,931 At epoch 22, the training loss is 2.514845
+2024-12-28 05:40:43,932 At epoch 22, the training loss is 2.596350
+2024-12-28 05:40:43,953 validating
+2024-12-28 05:40:44,092 validating
+2024-12-28 05:40:44,095 validating
+2024-12-28 05:40:44,096 validating
+2024-12-28 05:40:44,109 validating
+2024-12-28 05:40:44,112 validating
+2024-12-28 05:40:44,112 validating
+2024-12-28 05:41:15,922 At epoch 22, the validation loss is 0.777034
+2024-12-28 05:41:15,923 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:15,983 At epoch 22, the validation loss is 0.813720
+2024-12-28 05:41:15,984 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:16,296 At epoch 22, the validation loss is 0.825502
+2024-12-28 05:41:16,297 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:16,739 At epoch 22, the validation loss is 0.805442
+2024-12-28 05:41:16,740 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:16,774 At epoch 22, the validation loss is 0.797013
+2024-12-28 05:41:16,775 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:16,803 At epoch 22, the validation loss is 0.769648
+2024-12-28 05:41:16,804 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:16,990 At epoch 22, the validation loss is 0.824514
+2024-12-28 05:41:16,991 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:17,196 At epoch 22, the validation loss is 0.794312
+2024-12-28 05:41:17,197 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:41:17,765 At epoch 22, the validation loss is 0.785862
+2024-12-28 05:41:17,766 At epoch 23, the learning rate is 0.0049809
+2024-12-28 05:43:30,572 At epoch 23, the training loss is 2.614573
+2024-12-28 05:43:30,572 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,677 At epoch 23, the training loss is 2.606701
+2024-12-28 05:43:30,677 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,701 At epoch 23, the training loss is 2.529314
+2024-12-28 05:43:30,702 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,735 At epoch 23, the training loss is 2.522628
+2024-12-28 05:43:30,735 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,775 At epoch 23, the training loss is 2.539242
+2024-12-28 05:43:30,775 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,795 At epoch 23, the training loss is 2.575510
+2024-12-28 05:43:30,795 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,796 At epoch 23, the training loss is 2.541193
+2024-12-28 05:43:30,796 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,807 At epoch 23, the training loss is 2.538967
+2024-12-28 05:43:30,808 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:43:30,811 At epoch 23, the training loss is 2.527748
+2024-12-28 05:43:30,812 At epoch 24, the learning rate is 0.0050000
+2024-12-28 05:45:45,088 At epoch 24, the training loss is 2.549876
+2024-12-28 05:45:45,128 At epoch 24, the training loss is 2.517456
+2024-12-28 05:45:45,204 At epoch 24, the training loss is 2.556534
+2024-12-28 05:45:45,218 validating
+2024-12-28 05:45:45,240 validating
+2024-12-28 05:45:45,245 At epoch 24, the training loss is 2.548825
+2024-12-28 05:45:45,254 At epoch 24, the training loss is 2.514464
+2024-12-28 05:45:45,281 At epoch 24, the training loss is 2.536859
+2024-12-28 05:45:45,294 At epoch 24, the training loss is 2.529393
+2024-12-28 05:45:45,303 At epoch 24, the training loss is 2.543860
+2024-12-28 05:45:45,312 At epoch 24, the training loss is 2.524983
+2024-12-28 05:45:45,424 validating
+2024-12-28 05:45:45,465 validating
+2024-12-28 05:45:45,470 validating
+2024-12-28 05:45:45,473 validating
+2024-12-28 05:45:45,497 validating
+2024-12-28 05:45:45,503 validating
+2024-12-28 05:45:45,505 validating
+2024-12-28 05:46:17,018 At epoch 24, the validation loss is 0.669153
+2024-12-28 05:46:17,019 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:17,232 At epoch 24, the validation loss is 0.672348
+2024-12-28 05:46:17,232 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:17,623 At epoch 24, the validation loss is 0.688581
+2024-12-28 05:46:17,624 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:18,229 At epoch 24, the validation loss is 0.658490
+2024-12-28 05:46:18,230 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:18,310 At epoch 24, the validation loss is 0.750477
+2024-12-28 05:46:18,311 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:18,556 At epoch 24, the validation loss is 0.686573
+2024-12-28 05:46:18,557 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:19,013 At epoch 24, the validation loss is 0.667331
+2024-12-28 05:46:19,014 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:19,272 At epoch 24, the validation loss is 0.663310
+2024-12-28 05:46:19,273 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:46:19,767 At epoch 24, the validation loss is 0.680951
+2024-12-28 05:46:19,767 At epoch 25, the learning rate is 0.0049904
+2024-12-28 05:48:33,105 At epoch 25, the training loss is 2.545077
+2024-12-28 05:48:33,105 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,203 At epoch 25, the training loss is 2.498466
+2024-12-28 05:48:33,204 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,308 At epoch 25, the training loss is 2.481403
+2024-12-28 05:48:33,309 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,333 At epoch 25, the training loss is 2.494622
+2024-12-28 05:48:33,333 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,393 At epoch 25, the training loss is 2.480339
+2024-12-28 05:48:33,394 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,395 At epoch 25, the training loss is 2.499021
+2024-12-28 05:48:33,395 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,398 At epoch 25, the training loss is 2.447111
+2024-12-28 05:48:33,398 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,403 At epoch 25, the training loss is 2.546114
+2024-12-28 05:48:33,403 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:48:33,405 At epoch 25, the training loss is 2.509434
+2024-12-28 05:48:33,406 At epoch 26, the learning rate is 0.0049618
+2024-12-28 05:50:47,757 At epoch 26, the training loss is 2.491868
+2024-12-28 05:50:47,761 At epoch 26, the training loss is 2.516803
+2024-12-28 05:50:47,772 At epoch 26, the training loss is 2.502445
+2024-12-28 05:50:47,798 At epoch 26, the training loss is 2.502418
+2024-12-28 05:50:47,934 validating
+2024-12-28 05:50:47,934 validating
+2024-12-28 05:50:47,934 validating
+2024-12-28 05:50:47,935 validating
+2024-12-28 05:50:47,949 At epoch 26, the training loss is 2.519043
+2024-12-28 05:50:47,949 At epoch 26, the training loss is 2.516043
+2024-12-28 05:50:47,949 At epoch 26, the training loss is 2.479941
+2024-12-28 05:50:47,954 At epoch 26, the training loss is 2.451800
+2024-12-28 05:50:47,965 At epoch 26, the training loss is 2.490418
+2024-12-28 05:50:48,135 validating
+2024-12-28 05:50:48,135 validating
+2024-12-28 05:50:48,135 validating
+2024-12-28 05:50:48,136 validating
+2024-12-28 05:50:48,161 validating
+2024-12-28 05:51:19,898 At epoch 26, the validation loss is 0.691620
+2024-12-28 05:51:19,899 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:20,219 At epoch 26, the validation loss is 0.701577
+2024-12-28 05:51:20,220 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:20,625 At epoch 26, the validation loss is 0.724114
+2024-12-28 05:51:20,626 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:20,631 At epoch 26, the validation loss is 0.714720
+2024-12-28 05:51:20,631 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:20,741 At epoch 26, the validation loss is 0.706069
+2024-12-28 05:51:20,742 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:21,512 At epoch 26, the validation loss is 0.724896
+2024-12-28 05:51:21,513 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:21,685 At epoch 26, the validation loss is 0.718900
+2024-12-28 05:51:21,686 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:21,988 At epoch 26, the validation loss is 0.779759
+2024-12-28 05:51:21,989 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:51:22,159 At epoch 26, the validation loss is 0.720097
+2024-12-28 05:51:22,160 At epoch 27, the learning rate is 0.0049145
+2024-12-28 05:53:36,118 At epoch 27, the training loss is 2.484459
+2024-12-28 05:53:36,118 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,129 At epoch 27, the training loss is 2.554319
+2024-12-28 05:53:36,129 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,179 At epoch 27, the training loss is 2.525974
+2024-12-28 05:53:36,179 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,218 At epoch 27, the training loss is 2.486397
+2024-12-28 05:53:36,218 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,344 At epoch 27, the training loss is 2.493569
+2024-12-28 05:53:36,345 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,362 At epoch 27, the training loss is 2.523572
+2024-12-28 05:53:36,362 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,367 At epoch 27, the training loss is 2.519418
+2024-12-28 05:53:36,367 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,369 At epoch 27, the training loss is 2.486343
+2024-12-28 05:53:36,369 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:53:36,372 At epoch 27, the training loss is 2.497408
+2024-12-28 05:53:36,373 At epoch 28, the learning rate is 0.0048489
+2024-12-28 05:55:56,419 At epoch 28, the training loss is 2.446848
+2024-12-28 05:55:56,490 At epoch 28, the training loss is 2.488562
+2024-12-28 05:55:56,496 At epoch 28, the training loss is 2.457708
+2024-12-28 05:55:56,543 validating
+2024-12-28 05:55:56,546 At epoch 28, the training loss is 2.451279
+2024-12-28 05:55:56,569 At epoch 28, the training loss is 2.475895
+2024-12-28 05:55:56,572 At epoch 28, the training loss is 2.480731
+2024-12-28 05:55:56,588 At epoch 28, the training loss is 2.471105
+2024-12-28 05:55:56,590 At epoch 28, the training loss is 2.488729
+2024-12-28 05:55:56,615 At epoch 28, the training loss is 2.447076
+2024-12-28 05:55:56,683 validating
+2024-12-28 05:55:56,683 validating
+2024-12-28 05:55:56,812 validating
+2024-12-28 05:55:56,812 validating
+2024-12-28 05:55:56,815 validating
+2024-12-28 05:55:56,815 validating
+2024-12-28 05:55:56,822 validating
+2024-12-28 05:55:56,828 validating
+2024-12-28 05:56:28,324 At epoch 28, the validation loss is 0.684621
+2024-12-28 05:56:28,325 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:28,328 At epoch 28, the validation loss is 0.669534
+2024-12-28 05:56:28,329 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:28,363 At epoch 28, the validation loss is 0.748281
+2024-12-28 05:56:28,364 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:28,540 At epoch 28, the validation loss is 0.678523
+2024-12-28 05:56:28,540 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:28,747 At epoch 28, the validation loss is 0.662544
+2024-12-28 05:56:28,747 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:29,285 At epoch 28, the validation loss is 0.673775
+2024-12-28 05:56:29,286 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:29,728 At epoch 28, the validation loss is 0.674810
+2024-12-28 05:56:29,729 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:29,897 At epoch 28, the validation loss is 0.661878
+2024-12-28 05:56:29,897 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:56:30,266 At epoch 28, the validation loss is 0.679301
+2024-12-28 05:56:30,267 At epoch 29, the learning rate is 0.0047653
+2024-12-28 05:58:51,385 At epoch 29, the training loss is 2.440777
+2024-12-28 05:58:51,386 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,413 At epoch 29, the training loss is 2.477535
+2024-12-28 05:58:51,414 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,441 At epoch 29, the training loss is 2.467294
+2024-12-28 05:58:51,441 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,551 At epoch 29, the training loss is 2.429301
+2024-12-28 05:58:51,560 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,604 At epoch 29, the training loss is 2.480276
+2024-12-28 05:58:51,604 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,658 At epoch 29, the training loss is 2.490894
+2024-12-28 05:58:51,659 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,668 At epoch 29, the training loss is 2.474931
+2024-12-28 05:58:51,669 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,675 At epoch 29, the training loss is 2.441081
+2024-12-28 05:58:51,676 At epoch 30, the learning rate is 0.0046645
+2024-12-28 05:58:51,677 At epoch 29, the training loss is 2.473192
+2024-12-28 05:58:51,678 At epoch 30, the learning rate is 0.0046645
+2024-12-28 06:01:07,608 At epoch 30, the training loss is 2.453912
+2024-12-28 06:01:07,679 At epoch 30, the training loss is 2.493957
+2024-12-28 06:01:07,688 At epoch 30, the training loss is 2.468519
+2024-12-28 06:01:07,765 validating
+2024-12-28 06:01:07,804 validating
+2024-12-28 06:01:07,808 validating
+2024-12-28 06:01:07,868 At epoch 30, the training loss is 2.418584
+2024-12-28 06:01:07,898 At epoch 30, the training loss is 2.456285
+2024-12-28 06:01:07,926 At epoch 30, the training loss is 2.482330
+2024-12-28 06:01:07,941 At epoch 30, the training loss is 2.445266
+2024-12-28 06:01:07,955 At epoch 30, the training loss is 2.502127
+2024-12-28 06:01:07,958 At epoch 30, the training loss is 2.466947
+2024-12-28 06:01:08,081 validating
+2024-12-28 06:01:08,107 validating
+2024-12-28 06:01:08,131 validating
+2024-12-28 06:01:08,131 validating
+2024-12-28 06:01:08,131 validating
+2024-12-28 06:01:08,139 validating
+2024-12-28 06:01:39,152 At epoch 30, the validation loss is 0.707988
+2024-12-28 06:01:39,153 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:39,969 At epoch 30, the validation loss is 0.703061
+2024-12-28 06:01:39,970 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:40,014 At epoch 30, the validation loss is 0.704817
+2024-12-28 06:01:40,014 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:41,069 At epoch 30, the validation loss is 0.686466
+2024-12-28 06:01:41,070 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:42,165 At epoch 30, the validation loss is 0.703797
+2024-12-28 06:01:42,167 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:42,308 At epoch 30, the validation loss is 0.695397
+2024-12-28 06:01:42,309 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:42,378 At epoch 30, the validation loss is 0.710466
+2024-12-28 06:01:42,378 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:42,661 At epoch 30, the validation loss is 0.756599
+2024-12-28 06:01:42,662 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:01:43,027 At epoch 30, the validation loss is 0.701860
+2024-12-28 06:01:43,028 At epoch 31, the learning rate is 0.0045473
+2024-12-28 06:03:58,282 At epoch 31, the training loss is 2.378844
+2024-12-28 06:03:58,282 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,318 At epoch 31, the training loss is 2.451319
+2024-12-28 06:03:58,319 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,342 At epoch 31, the training loss is 2.450370
+2024-12-28 06:03:58,343 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,478 At epoch 31, the training loss is 2.396482
+2024-12-28 06:03:58,479 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,531 At epoch 31, the training loss is 2.421588
+2024-12-28 06:03:58,531 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,534 At epoch 31, the training loss is 2.425326
+2024-12-28 06:03:58,534 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,540 At epoch 31, the training loss is 2.445973
+2024-12-28 06:03:58,541 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,544 At epoch 31, the training loss is 2.427361
+2024-12-28 06:03:58,544 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:03:58,551 At epoch 31, the training loss is 2.410695
+2024-12-28 06:03:58,552 At epoch 32, the learning rate is 0.0044144
+2024-12-28 06:06:14,505 At epoch 32, the training loss is 2.398670
+2024-12-28 06:06:14,566 At epoch 32, the training loss is 2.424704
+2024-12-28 06:06:14,582 At epoch 32, the training loss is 2.420344
+2024-12-28 06:06:14,640 validating
+2024-12-28 06:06:14,678 validating
+2024-12-28 06:06:14,692 validating
+2024-12-28 06:06:14,815 At epoch 32, the training loss is 2.434040
+2024-12-28 06:06:14,827 At epoch 32, the training loss is 2.430312
+2024-12-28 06:06:14,832 At epoch 32, the training loss is 2.431971
+2024-12-28 06:06:14,833 At epoch 32, the training loss is 2.405689
+2024-12-28 06:06:14,835 At epoch 32, the training loss is 2.398090
+2024-12-28 06:06:14,846 At epoch 32, the training loss is 2.428065
+2024-12-28 06:06:15,013 validating
+2024-12-28 06:06:15,013 validating
+2024-12-28 06:06:15,019 validating
+2024-12-28 06:06:15,024 validating
+2024-12-28 06:06:15,029 validating
+2024-12-28 06:06:15,030 validating
+2024-12-28 06:06:46,704 At epoch 32, the validation loss is 0.626675
+2024-12-28 06:06:46,705 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:46,894 At epoch 32, the validation loss is 0.601008
+2024-12-28 06:06:46,895 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:47,362 At epoch 32, the validation loss is 0.613477
+2024-12-28 06:06:47,363 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:47,485 At epoch 32, the validation loss is 0.609049
+2024-12-28 06:06:47,485 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:50,777 At epoch 32, the validation loss is 0.635886
+2024-12-28 06:06:50,779 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:50,793 At epoch 32, the validation loss is 0.691580
+2024-12-28 06:06:50,795 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:50,801 At epoch 32, the validation loss is 0.604260
+2024-12-28 06:06:50,802 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:50,969 At epoch 32, the validation loss is 0.620973
+2024-12-28 06:06:50,970 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:06:51,049 At epoch 32, the validation loss is 0.619142
+2024-12-28 06:06:51,050 At epoch 33, the learning rate is 0.0042670
+2024-12-28 06:09:04,538 At epoch 33, the training loss is 2.380518
+2024-12-28 06:09:04,539 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,592 At epoch 33, the training loss is 2.433235
+2024-12-28 06:09:04,592 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,675 At epoch 33, the training loss is 2.373272
+2024-12-28 06:09:04,675 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,713 At epoch 33, the training loss is 2.418727
+2024-12-28 06:09:04,713 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,838 At epoch 33, the training loss is 2.414614
+2024-12-28 06:09:04,838 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,843 At epoch 33, the training loss is 2.426048
+2024-12-28 06:09:04,843 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,850 At epoch 33, the training loss is 2.409596
+2024-12-28 06:09:04,850 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,874 At epoch 33, the training loss is 2.442984
+2024-12-28 06:09:04,874 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:09:04,877 At epoch 33, the training loss is 2.423030
+2024-12-28 06:09:04,883 At epoch 34, the learning rate is 0.0041062
+2024-12-28 06:11:18,786 At epoch 34, the training loss is 2.369990
+2024-12-28 06:11:18,852 At epoch 34, the training loss is 2.401913
+2024-12-28 06:11:18,859 At epoch 34, the training loss is 2.398922
+2024-12-28 06:11:18,930 validating
+2024-12-28 06:11:18,956 At epoch 34, the training loss is 2.359766
+2024-12-28 06:11:19,017 validating
+2024-12-28 06:11:19,018 validating
+2024-12-28 06:11:19,031 At epoch 34, the training loss is 2.420677
+2024-12-28 06:11:19,045 At epoch 34, the training loss is 2.399960
+2024-12-28 06:11:19,052 At epoch 34, the training loss is 2.409344
+2024-12-28 06:11:19,064 At epoch 34, the training loss is 2.355042
+2024-12-28 06:11:19,071 At epoch 34, the training loss is 2.371382
+2024-12-28 06:11:19,127 validating
+2024-12-28 06:11:19,220 validating
+2024-12-28 06:11:19,244 validating
+2024-12-28 06:11:19,262 validating
+2024-12-28 06:11:19,266 validating
+2024-12-28 06:11:19,266 validating
+2024-12-28 06:11:50,831 At epoch 34, the validation loss is 0.614490
+2024-12-28 06:11:50,831 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:50,927 At epoch 34, the validation loss is 0.601628
+2024-12-28 06:11:50,927 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:51,296 At epoch 34, the validation loss is 0.646283
+2024-12-28 06:11:51,297 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:51,621 At epoch 34, the validation loss is 0.624588
+2024-12-28 06:11:51,622 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:51,636 At epoch 34, the validation loss is 0.624671
+2024-12-28 06:11:51,637 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:51,715 At epoch 34, the validation loss is 0.616934
+2024-12-28 06:11:51,716 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:51,741 At epoch 34, the validation loss is 0.624978
+2024-12-28 06:11:51,741 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:52,097 At epoch 34, the validation loss is 0.613773
+2024-12-28 06:11:52,098 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:11:52,194 At epoch 34, the validation loss is 0.694987
+2024-12-28 06:11:52,195 At epoch 35, the learning rate is 0.0039331
+2024-12-28 06:14:06,077 At epoch 35, the training loss is 2.241036
+2024-12-28 06:14:06,078 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,109 At epoch 35, the training loss is 2.204870
+2024-12-28 06:14:06,110 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,191 At epoch 35, the training loss is 2.160236
+2024-12-28 06:14:06,192 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,239 At epoch 35, the training loss is 2.148287
+2024-12-28 06:14:06,239 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,252 At epoch 35, the training loss is 2.194918
+2024-12-28 06:14:06,252 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,254 At epoch 35, the training loss is 2.185222
+2024-12-28 06:14:06,255 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,265 At epoch 35, the training loss is 2.191955
+2024-12-28 06:14:06,265 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,266 At epoch 35, the training loss is 2.179717
+2024-12-28 06:14:06,266 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:14:06,267 At epoch 35, the training loss is 2.220608
+2024-12-28 06:14:06,267 At epoch 36, the learning rate is 0.0037491
+2024-12-28 06:16:19,276 At epoch 36, the training loss is 2.136444
+2024-12-28 06:16:19,293 At epoch 36, the training loss is 2.124732
+2024-12-28 06:16:19,344 At epoch 36, the training loss is 2.166328
+2024-12-28 06:16:19,364 At epoch 36, the training loss is 2.128040
+2024-12-28 06:16:19,408 At epoch 36, the training loss is 2.112016
+2024-12-28 06:16:19,411 validating
+2024-12-28 06:16:19,418 At epoch 36, the training loss is 2.150122
+2024-12-28 06:16:19,423 validating
+2024-12-28 06:16:19,425 At epoch 36, the training loss is 2.140077
+2024-12-28 06:16:19,425 At epoch 36, the training loss is 2.119053
+2024-12-28 06:16:19,438 At epoch 36, the training loss is 2.115785
+2024-12-28 06:16:19,564 validating
+2024-12-28 06:16:19,568 validating
+2024-12-28 06:16:19,604 validating
+2024-12-28 06:16:19,616 validating
+2024-12-28 06:16:19,616 validating
+2024-12-28 06:16:19,616 validating
+2024-12-28 06:16:19,616 validating
+2024-12-28 06:16:50,954 At epoch 36, the validation loss is 0.612136
+2024-12-28 06:16:50,955 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:50,990 At epoch 36, the validation loss is 0.611988
+2024-12-28 06:16:50,991 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:51,219 At epoch 36, the validation loss is 0.610520
+2024-12-28 06:16:51,220 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:51,429 At epoch 36, the validation loss is 0.717941
+2024-12-28 06:16:51,430 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:51,545 At epoch 36, the validation loss is 0.598500
+2024-12-28 06:16:51,546 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:51,611 At epoch 36, the validation loss is 0.641707
+2024-12-28 06:16:51,611 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:51,866 At epoch 36, the validation loss is 0.606936
+2024-12-28 06:16:51,866 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:52,288 At epoch 36, the validation loss is 0.609401
+2024-12-28 06:16:52,289 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:16:52,740 At epoch 36, the validation loss is 0.607048
+2024-12-28 06:16:52,740 At epoch 37, the learning rate is 0.0035556
+2024-12-28 06:19:08,123 At epoch 37, the training loss is 2.095231
+2024-12-28 06:19:08,123 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,150 At epoch 37, the training loss is 2.095755
+2024-12-28 06:19:08,151 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,152 At epoch 37, the training loss is 2.133916
+2024-12-28 06:19:08,152 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,173 At epoch 37, the training loss is 2.120887
+2024-12-28 06:19:08,173 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,213 At epoch 37, the training loss is 2.121540
+2024-12-28 06:19:08,214 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,229 At epoch 37, the training loss is 2.115621
+2024-12-28 06:19:08,230 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,237 At epoch 37, the training loss is 2.123306
+2024-12-28 06:19:08,238 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,244 At epoch 37, the training loss is 2.094328
+2024-12-28 06:19:08,244 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:19:08,244 At epoch 37, the training loss is 2.121672
+2024-12-28 06:19:08,245 At epoch 38, the learning rate is 0.0033541
+2024-12-28 06:21:23,673 At epoch 38, the training loss is 2.072698
+2024-12-28 06:21:23,725 At epoch 38, the training loss is 2.083828
+2024-12-28 06:21:23,735 At epoch 38, the training loss is 2.083776
+2024-12-28 06:21:23,743 At epoch 38, the training loss is 2.109345
+2024-12-28 06:21:23,749 At epoch 38, the training loss is 2.076759
+2024-12-28 06:21:23,752 At epoch 38, the training loss is 2.046267
+2024-12-28 06:21:23,756 At epoch 38, the training loss is 2.104692
+2024-12-28 06:21:23,757 At epoch 38, the training loss is 2.124714
+2024-12-28 06:21:23,761 At epoch 38, the training loss is 2.092672
+2024-12-28 06:21:23,854 validating
+2024-12-28 06:21:23,972 validating
+2024-12-28 06:21:23,990 validating
+2024-12-28 06:21:23,991 validating
+2024-12-28 06:21:23,991 validating
+2024-12-28 06:21:23,991 validating
+2024-12-28 06:21:23,995 validating
+2024-12-28 06:21:23,995 validating
+2024-12-28 06:21:23,997 validating
+2024-12-28 06:21:54,290 At epoch 38, the validation loss is 0.632201
+2024-12-28 06:21:54,291 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:54,378 At epoch 38, the validation loss is 0.586406
+2024-12-28 06:21:54,379 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:54,608 At epoch 38, the validation loss is 0.567892
+2024-12-28 06:21:54,608 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:55,071 At epoch 38, the validation loss is 0.588358
+2024-12-28 06:21:55,072 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:56,963 At epoch 38, the validation loss is 0.590003
+2024-12-28 06:21:56,965 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:57,032 At epoch 38, the validation loss is 0.584080
+2024-12-28 06:21:57,033 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:57,186 At epoch 38, the validation loss is 0.575079
+2024-12-28 06:21:57,187 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:57,617 At epoch 38, the validation loss is 0.590137
+2024-12-28 06:21:57,618 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:21:58,388 At epoch 38, the validation loss is 0.595580
+2024-12-28 06:21:58,389 At epoch 39, the learning rate is 0.0031460
+2024-12-28 06:24:12,095 At epoch 39, the training loss is 2.074523
+2024-12-28 06:24:12,096 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,099 At epoch 39, the training loss is 2.070359
+2024-12-28 06:24:12,099 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,117 At epoch 39, the training loss is 2.088540
+2024-12-28 06:24:12,117 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,121 At epoch 39, the training loss is 2.069348
+2024-12-28 06:24:12,122 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,132 At epoch 39, the training loss is 2.055154
+2024-12-28 06:24:12,132 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,148 At epoch 39, the training loss is 2.096298
+2024-12-28 06:24:12,148 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,153 At epoch 39, the training loss is 2.060840
+2024-12-28 06:24:12,153 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,162 At epoch 39, the training loss is 2.081323
+2024-12-28 06:24:12,163 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:24:12,166 At epoch 39, the training loss is 2.047266
+2024-12-28 06:24:12,166 At epoch 40, the learning rate is 0.0029331
+2024-12-28 06:26:27,302 At epoch 40, the training loss is 2.063002
+2024-12-28 06:26:27,309 At epoch 40, the training loss is 2.070245
+2024-12-28 06:26:27,421 At epoch 40, the training loss is 2.066152
+2024-12-28 06:26:27,442 validating
+2024-12-28 06:26:27,443 validating
+2024-12-28 06:26:27,475 At epoch 40, the training loss is 2.103473
+2024-12-28 06:26:27,481 At epoch 40, the training loss is 2.056741
+2024-12-28 06:26:27,493 At epoch 40, the training loss is 2.077488
+2024-12-28 06:26:27,511 At epoch 40, the training loss is 2.048556
+2024-12-28 06:26:27,514 At epoch 40, the training loss is 2.048039
+2024-12-28 06:26:27,528 At epoch 40, the training loss is 2.064214
+2024-12-28 06:26:27,587 validating
+2024-12-28 06:26:27,701 validating
+2024-12-28 06:26:27,709 validating
+2024-12-28 06:26:27,715 validating
+2024-12-28 06:26:27,716 validating
+2024-12-28 06:26:27,716 validating
+2024-12-28 06:26:27,723 validating
+2024-12-28 06:26:58,803 At epoch 40, the validation loss is 0.564032
+2024-12-28 06:26:58,804 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:26:59,070 At epoch 40, the validation loss is 0.588468
+2024-12-28 06:26:59,070 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:26:59,075 At epoch 40, the validation loss is 0.573631
+2024-12-28 06:26:59,076 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:26:59,565 At epoch 40, the validation loss is 0.644984
+2024-12-28 06:26:59,566 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:26:59,724 At epoch 40, the validation loss is 0.589144
+2024-12-28 06:26:59,725 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:27:00,275 At epoch 40, the validation loss is 0.576004
+2024-12-28 06:27:00,276 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:27:00,417 At epoch 40, the validation loss is 0.593008
+2024-12-28 06:27:00,418 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:27:00,845 At epoch 40, the validation loss is 0.585553
+2024-12-28 06:27:00,846 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:27:01,127 At epoch 40, the validation loss is 0.578850
+2024-12-28 06:27:01,130 At epoch 41, the learning rate is 0.0027169
+2024-12-28 06:29:14,614 At epoch 41, the training loss is 2.045046
+2024-12-28 06:29:14,614 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,668 At epoch 41, the training loss is 2.030049
+2024-12-28 06:29:14,668 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,684 At epoch 41, the training loss is 2.045397
+2024-12-28 06:29:14,685 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,762 At epoch 41, the training loss is 2.047781
+2024-12-28 06:29:14,762 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,784 At epoch 41, the training loss is 2.040725
+2024-12-28 06:29:14,784 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,786 At epoch 41, the training loss is 2.032475
+2024-12-28 06:29:14,786 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,800 At epoch 41, the training loss is 2.055794
+2024-12-28 06:29:14,801 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,805 At epoch 41, the training loss is 2.039043
+2024-12-28 06:29:14,806 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:29:14,806 At epoch 41, the training loss is 2.047144
+2024-12-28 06:29:14,806 At epoch 42, the learning rate is 0.0024990
+2024-12-28 06:31:28,954 At epoch 42, the training loss is 2.036568
+2024-12-28 06:31:28,995 At epoch 42, the training loss is 2.054937
+2024-12-28 06:31:29,022 At epoch 42, the training loss is 2.053440
+2024-12-28 06:31:29,101 validating
+2024-12-28 06:31:29,117 validating
+2024-12-28 06:31:29,129 validating
+2024-12-28 06:31:29,172 At epoch 42, the training loss is 2.049295
+2024-12-28 06:31:29,182 At epoch 42, the training loss is 2.042184
+2024-12-28 06:31:29,191 At epoch 42, the training loss is 2.042693
+2024-12-28 06:31:29,192 At epoch 42, the training loss is 2.024170
+2024-12-28 06:31:29,195 At epoch 42, the training loss is 2.017162
+2024-12-28 06:31:29,197 At epoch 42, the training loss is 2.025182
+2024-12-28 06:31:29,369 validating
+2024-12-28 06:31:29,383 validating
+2024-12-28 06:31:29,389 validating
+2024-12-28 06:31:29,389 validating
+2024-12-28 06:31:29,389 validating
+2024-12-28 06:31:29,389 validating
+2024-12-28 06:32:00,089 At epoch 42, the validation loss is 0.561965
+2024-12-28 06:32:00,090 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:00,675 At epoch 42, the validation loss is 0.565738
+2024-12-28 06:32:00,676 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:00,951 At epoch 42, the validation loss is 0.563504
+2024-12-28 06:32:00,952 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:01,139 At epoch 42, the validation loss is 0.572550
+2024-12-28 06:32:01,140 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:01,296 At epoch 42, the validation loss is 0.577988
+2024-12-28 06:32:01,297 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:03,697 At epoch 42, the validation loss is 0.576962
+2024-12-28 06:32:03,698 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:05,061 At epoch 42, the validation loss is 0.558829
+2024-12-28 06:32:05,062 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:05,262 At epoch 42, the validation loss is 0.607743
+2024-12-28 06:32:05,263 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:32:06,046 At epoch 42, the validation loss is 0.577122
+2024-12-28 06:32:06,048 At epoch 43, the learning rate is 0.0022811
+2024-12-28 06:34:17,441 At epoch 43, the training loss is 1.992261
+2024-12-28 06:34:17,441 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,515 At epoch 43, the training loss is 2.022196
+2024-12-28 06:34:17,516 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,670 At epoch 43, the training loss is 2.024307
+2024-12-28 06:34:17,671 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,672 At epoch 43, the training loss is 2.027283
+2024-12-28 06:34:17,673 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,675 At epoch 43, the training loss is 2.021687
+2024-12-28 06:34:17,675 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,684 At epoch 43, the training loss is 2.030626
+2024-12-28 06:34:17,684 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,691 At epoch 43, the training loss is 1.997317
+2024-12-28 06:34:17,692 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,697 At epoch 43, the training loss is 2.035258
+2024-12-28 06:34:17,697 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:34:17,720 At epoch 43, the training loss is 2.034705
+2024-12-28 06:34:17,721 At epoch 44, the learning rate is 0.0020649
+2024-12-28 06:36:37,020 At epoch 44, the training loss is 1.989134
+2024-12-28 06:36:37,031 At epoch 44, the training loss is 1.996448
+2024-12-28 06:36:37,157 At epoch 44, the training loss is 2.003496
+2024-12-28 06:36:37,162 validating
+2024-12-28 06:36:37,162 validating
+2024-12-28 06:36:37,162 At epoch 44, the training loss is 2.004588
+2024-12-28 06:36:37,173 At epoch 44, the training loss is 1.993365
+2024-12-28 06:36:37,199 At epoch 44, the training loss is 1.991910
+2024-12-28 06:36:37,199 At epoch 44, the training loss is 1.993612
+2024-12-28 06:36:37,218 At epoch 44, the training loss is 2.049049
+2024-12-28 06:36:37,242 At epoch 44, the training loss is 2.024556
+2024-12-28 06:36:37,392 validating
+2024-12-28 06:36:37,392 validating
+2024-12-28 06:36:37,396 validating
+2024-12-28 06:36:37,411 validating
+2024-12-28 06:36:37,434 validating
+2024-12-28 06:36:37,437 validating
+2024-12-28 06:36:37,455 validating
+2024-12-28 06:37:08,174 At epoch 44, the validation loss is 0.548415
+2024-12-28 06:37:08,174 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:08,450 At epoch 44, the validation loss is 0.573696
+2024-12-28 06:37:08,451 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:08,586 At epoch 44, the validation loss is 0.570613
+2024-12-28 06:37:08,586 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:09,377 At epoch 44, the validation loss is 0.563209
+2024-12-28 06:37:09,378 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:09,382 At epoch 44, the validation loss is 0.573025
+2024-12-28 06:37:09,383 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:09,557 At epoch 44, the validation loss is 0.564890
+2024-12-28 06:37:09,558 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:09,571 At epoch 44, the validation loss is 0.585993
+2024-12-28 06:37:09,572 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:09,576 At epoch 44, the validation loss is 0.634839
+2024-12-28 06:37:09,576 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:37:10,100 At epoch 44, the validation loss is 0.559129
+2024-12-28 06:37:10,101 At epoch 45, the learning rate is 0.0018520
+2024-12-28 06:39:30,230 At epoch 45, the training loss is 1.985612
+2024-12-28 06:39:30,230 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,266 At epoch 45, the training loss is 1.989382
+2024-12-28 06:39:30,266 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,275 At epoch 45, the training loss is 1.983846
+2024-12-28 06:39:30,275 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,345 At epoch 45, the training loss is 1.970135
+2024-12-28 06:39:30,345 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,372 At epoch 45, the training loss is 2.045545
+2024-12-28 06:39:30,373 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,403 At epoch 45, the training loss is 1.990516
+2024-12-28 06:39:30,403 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,403 At epoch 45, the training loss is 1.990029
+2024-12-28 06:39:30,404 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,429 At epoch 45, the training loss is 1.980739
+2024-12-28 06:39:30,429 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:39:30,432 At epoch 45, the training loss is 1.999783
+2024-12-28 06:39:30,433 At epoch 46, the learning rate is 0.0016440
+2024-12-28 06:41:45,866 At epoch 46, the training loss is 2.013437
+2024-12-28 06:41:45,873 At epoch 46, the training loss is 1.980072
+2024-12-28 06:41:45,984 At epoch 46, the training loss is 1.963210
+2024-12-28 06:41:45,990 validating
+2024-12-28 06:41:45,991 validating
+2024-12-28 06:41:46,011 At epoch 46, the training loss is 1.955367
+2024-12-28 06:41:46,056 At epoch 46, the training loss is 1.991383
+2024-12-28 06:41:46,058 At epoch 46, the training loss is 1.990949
+2024-12-28 06:41:46,063 At epoch 46, the training loss is 1.965135
+2024-12-28 06:41:46,063 At epoch 46, the training loss is 1.992282
+2024-12-28 06:41:46,063 At epoch 46, the training loss is 1.986336
+2024-12-28 06:41:46,183 validating
+2024-12-28 06:41:46,188 validating
+2024-12-28 06:41:46,250 validating
+2024-12-28 06:41:46,250 validating
+2024-12-28 06:41:46,250 validating
+2024-12-28 06:41:46,255 validating
+2024-12-28 06:41:46,296 validating
+2024-12-28 06:42:16,776 At epoch 46, the validation loss is 0.568871
+2024-12-28 06:42:16,777 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:17,324 At epoch 46, the validation loss is 0.568821
+2024-12-28 06:42:17,324 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:17,769 At epoch 46, the validation loss is 0.634760
+2024-12-28 06:42:17,770 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:17,873 At epoch 46, the validation loss is 0.571141
+2024-12-28 06:42:17,874 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:18,476 At epoch 46, the validation loss is 0.562768
+2024-12-28 06:42:18,477 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:18,685 At epoch 46, the validation loss is 0.578894
+2024-12-28 06:42:18,686 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:18,801 At epoch 46, the validation loss is 0.564506
+2024-12-28 06:42:18,802 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:19,281 At epoch 46, the validation loss is 0.587423
+2024-12-28 06:42:19,282 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:42:20,049 At epoch 46, the validation loss is 0.562263
+2024-12-28 06:42:20,049 At epoch 47, the learning rate is 0.0014425
+2024-12-28 06:44:34,050 At epoch 47, the training loss is 1.982712
+2024-12-28 06:44:34,050 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,080 At epoch 47, the training loss is 1.992435
+2024-12-28 06:44:34,080 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,081 At epoch 47, the training loss is 1.955118
+2024-12-28 06:44:34,082 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,084 At epoch 47, the training loss is 1.990108
+2024-12-28 06:44:34,084 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,145 At epoch 47, the training loss is 1.952075
+2024-12-28 06:44:34,145 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,151 At epoch 47, the training loss is 1.968596
+2024-12-28 06:44:34,151 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,162 At epoch 47, the training loss is 1.980945
+2024-12-28 06:44:34,162 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,162 At epoch 47, the training loss is 1.962026
+2024-12-28 06:44:34,163 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:44:34,170 At epoch 47, the training loss is 1.973741
+2024-12-28 06:44:34,170 At epoch 48, the learning rate is 0.0012491
+2024-12-28 06:46:48,275 At epoch 48, the training loss is 1.978347
+2024-12-28 06:46:48,322 At epoch 48, the training loss is 1.961542
+2024-12-28 06:46:48,399 At epoch 48, the training loss is 1.971159
+2024-12-28 06:46:48,403 validating
+2024-12-28 06:46:48,406 At epoch 48, the training loss is 1.942725
+2024-12-28 06:46:48,461 validating
+2024-12-28 06:46:48,507 validating
+2024-12-28 06:46:48,507 validating
+2024-12-28 06:46:48,529 At epoch 48, the training loss is 1.970446
+2024-12-28 06:46:48,532 At epoch 48, the training loss is 1.967599
+2024-12-28 06:46:48,542 At epoch 48, the training loss is 1.967864
+2024-12-28 06:46:48,543 At epoch 48, the training loss is 1.981031
+2024-12-28 06:46:48,572 At epoch 48, the training loss is 1.954108
+2024-12-28 06:46:48,720 validating
+2024-12-28 06:46:48,721 validating
+2024-12-28 06:46:48,724 validating
+2024-12-28 06:46:48,733 validating
+2024-12-28 06:46:48,735 validating
+2024-12-28 06:47:20,081 At epoch 48, the validation loss is 0.563607
+2024-12-28 06:47:20,082 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,089 At epoch 48, the validation loss is 0.542992
+2024-12-28 06:47:20,089 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,442 At epoch 48, the validation loss is 0.561553
+2024-12-28 06:47:20,442 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,537 At epoch 48, the validation loss is 0.543375
+2024-12-28 06:47:20,541 At epoch 48, the validation loss is 0.550235
+2024-12-28 06:47:20,544 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,545 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,636 At epoch 48, the validation loss is 0.623424
+2024-12-28 06:47:20,637 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:20,677 At epoch 48, the validation loss is 0.558462
+2024-12-28 06:47:20,677 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:21,051 At epoch 48, the validation loss is 0.544973
+2024-12-28 06:47:21,053 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:47:21,960 At epoch 48, the validation loss is 0.545340
+2024-12-28 06:47:21,960 At epoch 49, the learning rate is 0.0010652
+2024-12-28 06:49:33,473 At epoch 49, the training loss is 1.958788
+2024-12-28 06:49:33,474 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,541 At epoch 49, the training loss is 1.938734
+2024-12-28 06:49:33,542 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,545 At epoch 49, the training loss is 1.935836
+2024-12-28 06:49:33,545 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,549 At epoch 49, the training loss is 1.980691
+2024-12-28 06:49:33,549 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,564 At epoch 49, the training loss is 1.976519
+2024-12-28 06:49:33,564 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,583 At epoch 49, the training loss is 1.942891
+2024-12-28 06:49:33,584 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,600 At epoch 49, the training loss is 1.941991
+2024-12-28 06:49:33,601 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,604 At epoch 49, the training loss is 1.966969
+2024-12-28 06:49:33,604 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:49:33,608 At epoch 49, the training loss is 1.934539
+2024-12-28 06:49:33,609 At epoch 50, the learning rate is 0.0008923
+2024-12-28 06:51:48,054 At epoch 50, the training loss is 1.924142
+2024-12-28 06:51:48,097 At epoch 50, the training loss is 1.927189
+2024-12-28 06:51:48,101 At epoch 50, the training loss is 1.937359
+2024-12-28 06:51:48,140 At epoch 50, the training loss is 1.959164
+2024-12-28 06:51:48,238 validating
+2024-12-28 06:51:48,248 validating
+2024-12-28 06:51:48,258 validating
+2024-12-28 06:51:48,267 validating
+2024-12-28 06:51:48,268 At epoch 50, the training loss is 1.957842
+2024-12-28 06:51:48,278 At epoch 50, the training loss is 1.964776
+2024-12-28 06:51:48,284 At epoch 50, the training loss is 1.952942
+2024-12-28 06:51:48,285 At epoch 50, the training loss is 1.948860
+2024-12-28 06:51:48,292 At epoch 50, the training loss is 1.973098
+2024-12-28 06:51:48,502 validating
+2024-12-28 06:51:48,502 validating
+2024-12-28 06:51:48,502 validating
+2024-12-28 06:51:48,502 validating
+2024-12-28 06:51:48,503 validating
+2024-12-28 06:52:19,098 At epoch 50, the validation loss is 0.547772
+2024-12-28 06:52:19,098 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:20,054 At epoch 50, the validation loss is 0.557321
+2024-12-28 06:52:20,055 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:20,457 At epoch 50, the validation loss is 0.527928
+2024-12-28 06:52:20,458 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:20,663 At epoch 50, the validation loss is 0.535258
+2024-12-28 06:52:20,664 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:21,127 At epoch 50, the validation loss is 0.532628
+2024-12-28 06:52:21,128 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:21,800 At epoch 50, the validation loss is 0.546762
+2024-12-28 06:52:21,801 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:21,847 At epoch 50, the validation loss is 0.542546
+2024-12-28 06:52:21,848 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:22,292 At epoch 50, the validation loss is 0.590711
+2024-12-28 06:52:22,293 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:52:22,682 At epoch 50, the validation loss is 0.546764
+2024-12-28 06:52:22,683 At epoch 51, the learning rate is 0.0007315
+2024-12-28 06:54:35,737 At epoch 51, the training loss is 1.926457
+2024-12-28 06:54:35,737 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,740 At epoch 51, the training loss is 1.943700
+2024-12-28 06:54:35,740 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,768 At epoch 51, the training loss is 1.931854
+2024-12-28 06:54:35,769 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,816 At epoch 51, the training loss is 1.967945
+2024-12-28 06:54:35,817 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,835 At epoch 51, the training loss is 1.965771
+2024-12-28 06:54:35,835 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,897 At epoch 51, the training loss is 1.923357
+2024-12-28 06:54:35,898 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,912 At epoch 51, the training loss is 1.936041
+2024-12-28 06:54:35,913 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,927 At epoch 51, the training loss is 1.984159
+2024-12-28 06:54:35,927 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:54:35,936 At epoch 51, the training loss is 1.936732
+2024-12-28 06:54:35,937 At epoch 52, the learning rate is 0.0005843
+2024-12-28 06:56:48,956 At epoch 52, the training loss is 1.938835
+2024-12-28 06:56:49,026 At epoch 52, the training loss is 1.967502
+2024-12-28 06:56:49,028 At epoch 52, the training loss is 1.925762
+2024-12-28 06:56:49,102 At epoch 52, the training loss is 1.944219
+2024-12-28 06:56:49,108 validating
+2024-12-28 06:56:49,123 At epoch 52, the training loss is 1.925100
+2024-12-28 06:56:49,155 At epoch 52, the training loss is 1.964837
+2024-12-28 06:56:49,155 At epoch 52, the training loss is 1.930445
+2024-12-28 06:56:49,168 At epoch 52, the training loss is 1.958261
+2024-12-28 06:56:49,173 At epoch 52, the training loss is 1.920037
+2024-12-28 06:56:49,176 validating
+2024-12-28 06:56:49,177 validating
+2024-12-28 06:56:49,343 validating
+2024-12-28 06:56:49,344 validating
+2024-12-28 06:56:49,353 validating
+2024-12-28 06:56:49,353 validating
+2024-12-28 06:56:49,355 validating
+2024-12-28 06:56:49,355 validating
+2024-12-28 06:57:20,533 At epoch 52, the validation loss is 0.530059
+2024-12-28 06:57:20,533 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:20,554 At epoch 52, the validation loss is 0.544715
+2024-12-28 06:57:20,554 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:20,561 At epoch 52, the validation loss is 0.540760
+2024-12-28 06:57:20,562 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:20,869 At epoch 52, the validation loss is 0.588306
+2024-12-28 06:57:20,870 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:21,382 At epoch 52, the validation loss is 0.559122
+2024-12-28 06:57:21,383 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:21,466 At epoch 52, the validation loss is 0.541797
+2024-12-28 06:57:21,467 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:21,483 At epoch 52, the validation loss is 0.531124
+2024-12-28 06:57:21,484 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:21,963 At epoch 52, the validation loss is 0.548581
+2024-12-28 06:57:21,964 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:57:22,669 At epoch 52, the validation loss is 0.538738
+2024-12-28 06:57:22,671 At epoch 53, the learning rate is 0.0004516
+2024-12-28 06:59:35,204 At epoch 53, the training loss is 1.906283
+2024-12-28 06:59:35,204 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,207 At epoch 53, the training loss is 1.915605
+2024-12-28 06:59:35,208 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,211 At epoch 53, the training loss is 1.941624
+2024-12-28 06:59:35,212 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,213 At epoch 53, the training loss is 1.927143
+2024-12-28 06:59:35,213 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,223 At epoch 53, the training loss is 1.918921
+2024-12-28 06:59:35,223 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,225 At epoch 53, the training loss is 1.928054
+2024-12-28 06:59:35,225 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,231 At epoch 53, the training loss is 1.955567
+2024-12-28 06:59:35,231 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,233 At epoch 53, the training loss is 1.938791
+2024-12-28 06:59:35,233 At epoch 54, the learning rate is 0.0003345
+2024-12-28 06:59:35,240 At epoch 53, the training loss is 1.923098
+2024-12-28 06:59:35,240 At epoch 54, the learning rate is 0.0003345
+2024-12-28 07:01:48,490 At epoch 54, the training loss is 1.908108
+2024-12-28 07:01:48,491 At epoch 54, the training loss is 1.929962
+2024-12-28 07:01:48,504 At epoch 54, the training loss is 1.927526
+2024-12-28 07:01:48,507 At epoch 54, the training loss is 1.945804
+2024-12-28 07:01:48,563 At epoch 54, the training loss is 1.929397
+2024-12-28 07:01:48,607 At epoch 54, the training loss is 1.921958
+2024-12-28 07:01:48,612 At epoch 54, the training loss is 1.917076
+2024-12-28 07:01:48,612 At epoch 54, the training loss is 1.908722
+2024-12-28 07:01:48,614 At epoch 54, the training loss is 1.921803
+2024-12-28 07:01:48,657 validating
+2024-12-28 07:01:48,681 validating
+2024-12-28 07:01:48,694 validating
+2024-12-28 07:01:48,694 validating
+2024-12-28 07:01:48,762 validating
+2024-12-28 07:01:48,787 validating
+2024-12-28 07:01:48,787 validating
+2024-12-28 07:01:48,787 validating
+2024-12-28 07:01:48,787 validating
+2024-12-28 07:02:20,226 At epoch 54, the validation loss is 0.532795
+2024-12-28 07:02:20,226 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:20,229 At epoch 54, the validation loss is 0.531542
+2024-12-28 07:02:20,229 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:20,573 At epoch 54, the validation loss is 0.537679
+2024-12-28 07:02:20,574 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:20,659 At epoch 54, the validation loss is 0.558643
+2024-12-28 07:02:20,659 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:20,683 At epoch 54, the validation loss is 0.544861
+2024-12-28 07:02:20,683 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:20,939 At epoch 54, the validation loss is 0.553867
+2024-12-28 07:02:20,940 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:21,072 At epoch 54, the validation loss is 0.546311
+2024-12-28 07:02:21,073 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:21,180 At epoch 54, the validation loss is 0.595122
+2024-12-28 07:02:21,181 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:02:21,761 At epoch 54, the validation loss is 0.543295
+2024-12-28 07:02:21,761 At epoch 55, the learning rate is 0.0002338
+2024-12-28 07:04:35,071 At epoch 55, the training loss is 1.923532
+2024-12-28 07:04:35,072 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,077 At epoch 55, the training loss is 1.911491
+2024-12-28 07:04:35,078 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,096 At epoch 55, the training loss is 1.877389
+2024-12-28 07:04:35,097 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,118 At epoch 55, the training loss is 1.904690
+2024-12-28 07:04:35,119 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,146 At epoch 55, the training loss is 1.927535
+2024-12-28 07:04:35,147 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,211 At epoch 55, the training loss is 1.939792
+2024-12-28 07:04:35,211 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,215 At epoch 55, the training loss is 1.917402
+2024-12-28 07:04:35,216 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,220 At epoch 55, the training loss is 1.932891
+2024-12-28 07:04:35,220 At epoch 55, the training loss is 1.933998
+2024-12-28 07:04:35,221 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:04:35,221 At epoch 56, the learning rate is 0.0001505
+2024-12-28 07:06:48,165 At epoch 56, the training loss is 1.914413
+2024-12-28 07:06:48,174 At epoch 56, the training loss is 1.919523
+2024-12-28 07:06:48,176 At epoch 56, the training loss is 1.945463
+2024-12-28 07:06:48,188 At epoch 56, the training loss is 1.922303
+2024-12-28 07:06:48,201 At epoch 56, the training loss is 1.924498
+2024-12-28 07:06:48,213 At epoch 56, the training loss is 1.922239
+2024-12-28 07:06:48,227 At epoch 56, the training loss is 1.915960
+2024-12-28 07:06:48,237 At epoch 56, the training loss is 1.915194
+2024-12-28 07:06:48,242 At epoch 56, the training loss is 1.935753
+2024-12-28 07:06:48,413 validating
+2024-12-28 07:06:48,413 validating
+2024-12-28 07:06:48,415 validating
+2024-12-28 07:06:48,430 validating
+2024-12-28 07:06:48,437 validating
+2024-12-28 07:06:48,451 validating
+2024-12-28 07:06:48,451 validating
+2024-12-28 07:06:48,452 validating
+2024-12-28 07:06:48,456 validating
+2024-12-28 07:07:19,739 At epoch 56, the validation loss is 0.581092
+2024-12-28 07:07:19,739 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:20,120 At epoch 56, the validation loss is 0.522402
+2024-12-28 07:07:20,120 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:20,198 At epoch 56, the validation loss is 0.540177
+2024-12-28 07:07:20,198 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:20,198 At epoch 56, the validation loss is 0.534715
+2024-12-28 07:07:20,199 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:20,258 At epoch 56, the validation loss is 0.525793
+2024-12-28 07:07:20,259 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:20,476 At epoch 56, the validation loss is 0.538483
+2024-12-28 07:07:20,477 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:21,963 At epoch 56, the validation loss is 0.540002
+2024-12-28 07:07:21,965 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:22,026 At epoch 56, the validation loss is 0.528412
+2024-12-28 07:07:22,028 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:07:22,092 At epoch 56, the validation loss is 0.546383
+2024-12-28 07:07:22,094 At epoch 57, the learning rate is 0.0000850
+2024-12-28 07:09:35,156 At epoch 57, the training loss is 1.931606
+2024-12-28 07:09:35,156 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,183 At epoch 57, the training loss is 1.934661
+2024-12-28 07:09:35,183 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,185 At epoch 57, the training loss is 1.923346
+2024-12-28 07:09:35,186 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,188 At epoch 57, the training loss is 1.903904
+2024-12-28 07:09:35,189 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,200 At epoch 57, the training loss is 1.914780
+2024-12-28 07:09:35,201 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,256 At epoch 57, the training loss is 1.900071
+2024-12-28 07:09:35,256 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,259 At epoch 57, the training loss is 1.910187
+2024-12-28 07:09:35,260 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,263 At epoch 57, the training loss is 1.910208
+2024-12-28 07:09:35,263 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:09:35,268 At epoch 57, the training loss is 1.932999
+2024-12-28 07:09:35,268 At epoch 58, the learning rate is 0.0000378
+2024-12-28 07:11:48,683 At epoch 58, the training loss is 1.893271
+2024-12-28 07:11:48,705 At epoch 58, the training loss is 1.950120
+2024-12-28 07:11:48,724 At epoch 58, the training loss is 1.917557
+2024-12-28 07:11:48,725 At epoch 58, the training loss is 1.928659
+2024-12-28 07:11:48,729 At epoch 58, the training loss is 1.911876
+2024-12-28 07:11:48,823 At epoch 58, the training loss is 1.932733
+2024-12-28 07:11:48,830 validating
+2024-12-28 07:11:48,831 At epoch 58, the training loss is 1.909473
+2024-12-28 07:11:48,853 At epoch 58, the training loss is 1.919245
+2024-12-28 07:11:48,864 At epoch 58, the training loss is 1.919299
+2024-12-28 07:11:48,864 validating
+2024-12-28 07:11:48,947 validating
+2024-12-28 07:11:48,947 validating
+2024-12-28 07:11:48,949 validating
+2024-12-28 07:11:49,006 validating
+2024-12-28 07:11:49,006 validating
+2024-12-28 07:11:49,009 validating
+2024-12-28 07:11:49,014 validating
+2024-12-28 07:12:20,192 At epoch 58, the validation loss is 0.539280
+2024-12-28 07:12:20,193 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:20,592 At epoch 58, the validation loss is 0.540311
+2024-12-28 07:12:20,593 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:20,633 At epoch 58, the validation loss is 0.585644
+2024-12-28 07:12:20,633 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:20,886 At epoch 58, the validation loss is 0.538569
+2024-12-28 07:12:20,887 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:20,956 At epoch 58, the validation loss is 0.524431
+2024-12-28 07:12:20,957 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:21,073 At epoch 58, the validation loss is 0.545776
+2024-12-28 07:12:21,073 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:21,204 At epoch 58, the validation loss is 0.550890
+2024-12-28 07:12:21,205 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:21,508 At epoch 58, the validation loss is 0.529831
+2024-12-28 07:12:21,509 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:12:21,548 At epoch 58, the validation loss is 0.525953
+2024-12-28 07:12:21,548 At epoch 59, the learning rate is 0.0000095
+2024-12-28 07:14:35,515 At epoch 59, the training loss is 1.887404
+2024-12-28 07:14:35,523 At epoch 59, the training loss is 1.910855
+2024-12-28 07:14:35,530 At epoch 59, the training loss is 1.908857
+2024-12-28 07:14:35,543 At epoch 59, the training loss is 1.910570
+2024-12-28 07:14:35,549 At epoch 59, the training loss is 1.895314
+2024-12-28 07:14:35,568 At epoch 59, the training loss is 1.930029
+2024-12-28 07:14:35,572 At epoch 59, the training loss is 1.910050
+2024-12-28 07:14:35,587 At epoch 59, the training loss is 1.937145
+2024-12-28 07:14:35,587 At epoch 59, the training loss is 1.913222

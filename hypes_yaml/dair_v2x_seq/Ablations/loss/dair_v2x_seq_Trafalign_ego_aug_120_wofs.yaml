@@ -1,0 +1,191 @@
+name: dair_v2x_seq_Trafalign_ego_aug_120_wofs
+root_dir: '/data1/dataset_zhiying/V2XSeq/'
+split_dir: 'datasets/Basedataset/V2XSeq_dataset_split_official.yaml'
+
+wild_setting:
+  async: True
+  async_ego: True
+  async_mode: 'sim'
+  agent_i_delay: 0 
+  agent_i_delay_train_aug: [0,400]
+  seed: 2023
+  loc_calib: True
+  loc_err: False
+  xyz_std: 0
+  ryp_std: 0
+  ego: 'vehicle'
+  lidar_frequency: 10
+
+yaml_parser: "load_point_pillar_params"
+train_params:
+  train_batch_size: 4
+  val_batch_size: 4
+  epoches: 120
+  eval_freq: 2
+  save_freq: 2
+  max_cav: 2
+
+voxelization:
+  core_method: 'SpVoxelPreprocessor'
+  lidar_range: &lidar_range [0,-40,-3,96,40,1.5] 
+  voxel_size: [0.4, 0.4, 4.5]
+  grid_size: [200,480,1] # y,x,z! 
+  max_points_per_voxel: 32
+  max_voxel: 16000
+
+fusion:
+  core_method: 'IntermediateFusionDataset'
+  dataset: v2xseq
+  args:
+    cur_ego_pose_flag: False
+    proj_first: True
+
+dataset:
+  shuffle_each_epoch: False
+  cls: ['Car','Truck','Van','Bus','Pedestrian','Cyclist','Tricyclist','Motorcyclist','Barrowlist','Trafficcone']
+  ignore_cls: ['Pedestrian','Cyclist','Tricyclist','Motorcyclist','Barrowlist','Trafficcone']
+  cls_id: [0,1,2,3,4,5,6,7,8,9]
+  cls_map: [0,0,0,0,2,1,1,1,2,2]
+  cls_group: [["Car"]]
+  eval_iou_threshold: [[0.5,0.7]] 
+  eval_cls: ['vehicle']
+  eval_range: *lidar_range
+  infer_range: False 
+  find_unused_params: False
+
+  frame_his: 4
+  cav_frame_his: 4
+  merge_pcd_first: False 
+
+  label: "cooperative/label/"
+  veh_label: "vehicle-side/label/lidar/"
+  infra_label: "infrastructure-side/label/virtuallidar/"
+  info: "/data_info.json"
+
+  augment: True
+  augmentation:
+    Rotation: [-0.785, 0.785]
+    Scaling: [0.9, 1.1]
+    Translation: 0.5
+    Flip: [0, 0]
+
+  centermap:
+    gaussian_overlap : 0.1
+    max_objs: 200
+    min_radius: 2
+    traj_radius: 2
+  
+# model related
+model:
+  core_method: traf_align
+  reader:
+    num_filters: [64]
+    num_input_features: 9 
+    timestamp: False
+    
+  backbone: 
+    resnet:
+      layer_nums: [2, 2, 2, 2]
+      kernel_size: [3, 3,3,3]
+      num_input_features: 64
+      ds_layer_strides: [1,2,2,2]
+      ds_num_filters:  [64,128,256,256]
+
+    upsample_strides: [0.25, 0.5, 1, 2]
+    num_upsample_filters: [128, 128, 128, 128]
+    out_size_factor: [4,4] 
+    downsample: 256
+
+  compression: 0 #32 
+
+  deform: 
+    multi_branch: True
+    ablation: 'wofs' 
+    field_dim: 3
+    upsample_stride: 1
+    input_stride: [4]
+    mapping_stride: 1
+    mapping_dim: &mapping_dim 128
+    perturbance: 0
+    offset:
+      heads: 2
+      kernel: [3] 
+      # attention_position_num = [heads * i^2 for i in kernel]
+      supervise_num: [18] 
+    fusion: 'conv' 
+    attention:
+      dim: 64
+      layer_num: 2
+      num_heads: 4    
+
+  compression: 0 
+
+  head:
+    in_channels: 128 
+    core_method: anchorhead
+    sep_head: False
+    class_agnostic: False
+    num_anchors_per_location: 2
+    use_direction_classifier: False
+    dir_offset: 0.78539
+    dir_limit_offset: 0.0
+    num_dir_bins: 2
+
+    anchor_generator_config: [
+        {
+            'class_name': 'Car',
+            'anchor_sizes': [[3.9, 1.6, 1.56]], # [[l,w,h]]
+            'anchor_rotations': [0, 1.57],
+            'anchor_bottom_heights': [-1.78],
+            'align_center': False,
+            'feature_map_stride': 4,
+            'matched_threshold': 0.6,
+            'unmatched_threshold': 0.45
+        }
+    ]
+
+    target_assigner_config:
+        name: AxisAlignedTargetAssigner
+        pos_fraction: -1.0
+        sample_size: 128
+        norm_by_num_examples: False
+        match_height: False
+        box_coder: ResidualCoder
+
+    loss_config:
+        loss_weights: {
+            'cls_weight': 1.0,
+            'loc_weight': 2.0,
+            'dir_weight': 0.2,
+            'code_weights': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+        }   
+
+optimizer:
+  core_method: torch.optim.AdamW 
+  betas: [0.9, 0.99]
+  weight_decay: 0.01
+  amsgrad: False
+
+loss:
+  core_method: dtf_point_pillars_loss
+  weight: [1,1,0.05,0] # alpha,beta,cta,dta for hm,loc,offset and field loss 
+  reg_iou: False
+  iou_weight: 0.25
+  t_cls_weight: 0
+
+lr_scheduler:
+  core_method: torch.optim.lr_scheduler.OneCycleLR
+  max_lr: 0.005
+  div_factor: 10.0
+  pct_start: 0.4
+
+post_processing:
+  recall_thresh_list: [0.3, 0.5, 0.7]
+  score_thresh: 0.2 
+  output_raw_score: False
+
+  nms_config:
+      nms_type: nms_gpu
+      nms_thresh: 0.15
+      nms_pre_maxsize: 4096
+      nms_post_maxsize: 100
