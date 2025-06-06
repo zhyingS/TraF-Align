@@ -73,12 +73,12 @@ Arguments Explanation:
 
 ## Citation
   ```bibtex
-@InProceedings{Song_2025_TraF-Align,
-    author    = {Song, Zhiying and Yang, Lei and Wen, Fuxi and Li, Jun},
-    title     = {TraF-Align: Trajectory-aware Feature Alignment for Asynchronous Multi-agent Perception},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year      = {2025},
-    pages     = {}
+@inproceedings{song2025traf,
+  title={Traf-align: Trajectory-aware feature alignment for asynchronous multi-agent perception},
+  author={Song, Zhiying and Yang, Lei and Wen, Fuxi and Li, Jun},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={12048--12057},
+  year={2025}
 }
 ```
 
