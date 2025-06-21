@@ -43,7 +43,7 @@ cd models/ops/iou3d_nms && python setup.py build_ext --inplace
 ```
 
 ## Test with pretrained model
-We provide the checkpoints of TraF-Align trained on V2V4Real and V2X-Seq in ```checkpoints/```. First set the configs in ```tools/inference.py```, including checkpoint folder path, batch size, delay of Ego vehicle and cooperative agents, then set the ```root_dir``` to path of dataset in ${CONFIG_FILE}, and test them by 
+We provide the checkpoints of TraF-Align trained on V2V4Real and V2X-Seq in ```checkpoints/```. First set the configs in ```tools/inference.py```, including checkpoint folder path, batch size, delay of Ego vehicle and cooperative agents, then set the ```root_dir``` to path of dataset in ${CONFIG_FILE}, and test them by  
 ```python
 python tools/inference.py
 ```
