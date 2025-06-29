@@ -4,7 +4,7 @@ import torch
 import copy
 from einops import rearrange
 
-from DEFU_paper.qualitative_visualization import vis_utils
+# from DEFU_paper.qualitative_visualization import vis_utils
 
 
 def check_detection_boxes(lidar, box_list, cfg=None, detc=""):
