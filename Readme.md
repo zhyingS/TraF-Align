@@ -13,8 +13,6 @@
   <a href="https://arxiv.org/abs/2503.19391"><img alt="paper" src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg"></a>
   </p>
 
-![TraF-Align_Overview](imgs/framework.png)
-
 **For any questions, please feel free to email me at song-zy24@mails.tsinghua.edu.cn.**
 
 ## Abstract
